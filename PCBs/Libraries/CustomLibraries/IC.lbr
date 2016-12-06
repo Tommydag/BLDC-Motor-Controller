@@ -278,6 +278,49 @@
 <rectangle x1="-3.485" y1="-1.645" x2="2.865" y2="1.965" layer="31"/>
 <rectangle x1="-3.785" y1="-1.845" x2="3.115" y2="2.155" layer="29"/>
 </package>
+<package name="SOIC-16">
+<wire x1="4.94" y1="-1.9" x2="-4.94" y2="-1.9" width="0.1524" layer="51"/>
+<wire x1="-4.94" y1="-1.9" x2="-4.94" y2="-1.4" width="0.1524" layer="51"/>
+<wire x1="-4.94" y1="-1.4" x2="-4.94" y2="1.9" width="0.1524" layer="51"/>
+<wire x1="-4.94" y1="1.9" x2="4.94" y2="1.9" width="0.1524" layer="51"/>
+<wire x1="4.94" y1="-1.4" x2="-4.94" y2="-1.4" width="0.1524" layer="51"/>
+<wire x1="4.94" y1="1.9" x2="4.94" y2="-1.4" width="0.1524" layer="51"/>
+<wire x1="4.94" y1="-1.4" x2="4.94" y2="-1.9" width="0.1524" layer="51"/>
+<smd name="2" x="-3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="12" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="11" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="3.175" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="3.175" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="4.445" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="-3.175" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="-4.445" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-5.3975" y="-2.54" size="1.27" layer="25" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.6901" y1="-3.1001" x2="-4.1999" y2="-2" layer="51"/>
+<rectangle x1="-3.4201" y1="-3.1001" x2="-2.9299" y2="-2" layer="51"/>
+<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
+<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
+<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
+<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
+<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
+<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
+<rectangle x1="2.9299" y1="-3.1001" x2="3.4201" y2="-2" layer="51"/>
+<rectangle x1="4.1999" y1="-3.1001" x2="4.6901" y2="-2" layer="51"/>
+<rectangle x1="4.1999" y1="2" x2="4.6901" y2="3.1001" layer="51"/>
+<rectangle x1="2.9299" y1="2" x2="3.4201" y2="3.1001" layer="51"/>
+<rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
+<rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8301">
@@ -375,6 +418,26 @@ gate drivers.</description>
 <text x="12.7" y="58.42" size="1.778" layer="94">Buck
 Converter</text>
 </symbol>
+<symbol name="LT4356-1">
+<wire x1="-20.32" y1="-15.24" x2="17.78" y2="-15.24" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="-15.24" x2="17.78" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="-20.32" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="-20.32" y1="17.78" x2="-20.32" y2="-15.24" width="0.4064" layer="94"/>
+<pin name="!SHDN" x="-25.4" y="10.16" length="middle" direction="in"/>
+<pin name="IN+" x="-25.4" y="5.08" length="middle" direction="in"/>
+<pin name="AOUT" x="-25.4" y="-10.16" length="middle" direction="out"/>
+<pin name="FB" x="22.86" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="EN" x="22.86" y="-2.54" length="middle" direction="out" rot="R180"/>
+<pin name="!FAULT" x="22.86" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-5.08" y="-20.32" length="middle" direction="pwr" rot="R90"/>
+<pin name="TMR" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="VCC" x="-7.62" y="22.86" length="middle" direction="pwr" rot="R270"/>
+<pin name="SNS" x="-2.54" y="22.86" length="middle" direction="in" rot="R270"/>
+<pin name="GATE" x="2.54" y="22.86" length="middle" direction="out" rot="R270"/>
+<pin name="OUT" x="7.62" y="22.86" length="middle" direction="in" rot="R270"/>
+<text x="-12.7" y="20.32" size="1.778" layer="95" font="vector" ratio="12" align="center-right">&gt;NAME</text>
+<text x="-10.16" y="-17.78" size="1.778" layer="96" font="vector" ratio="12" align="center-right">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DRV8301" prefix="U">
@@ -468,6 +531,57 @@ Note: An automotive version exsists</description>
 <connect gate="U1" pin="SS_TR" pad="56"/>
 <connect gate="U1" pin="VDD_SPI" pad="49"/>
 <connect gate="U1" pin="VSENSE" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT4356-2" prefix="U1">
+<description>The LT®4356 surge stopper protects loads from high voltage
+transients. It regulates the output during an overvoltage
+event, such as load dump in automobiles, by controlling
+the gate of an external N-channel MOSFET. The output is
+limited to a safe value thereby allowing the loads to continue
+functioning. The LT4356 also monitors the voltage
+drop between the VCC and SNS pins to protect against
+overcurrent faults. An internal amplifi er limits the current
+sense voltage to 50mV. In either fault condition, a timer
+is started inversely proportional to MOSFET stress. If the
+timer expires, the FLT pin pulls low to warn of an impending
+power down. If the condition persists, the MOSFET is
+turned off. After a cool down period, the GATE pin pulls
+up turning on the MOSFET again.
+The auxiliary amplifi er may be used as a voltage detection
+comparator or as a linear regulator controller driving an
+external PNP pass transistor.
+Back-to-back FETs can be used in lieu of a Schottky diode
+for reverse input protection, reducing voltage drop and
+power loss. A shutdown pin reduces the quiescent current
+to less than 7μA for the LT4356-1 during shutdown. The
+LT4356-2 differs from the LT4356-1 during shutdown by
+reducing the quiescent current to 60μA and keeping alive
+the auxiliary amplifi er for uses such as an undervoltage
+lockout or always-on regulator.</description>
+<gates>
+<gate name="U1" symbol="LT4356-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-16">
+<connects>
+<connect gate="U1" pin="!FAULT" pad="10"/>
+<connect gate="U1" pin="!SHDN" pad="9"/>
+<connect gate="U1" pin="AOUT" pad="14"/>
+<connect gate="U1" pin="EN" pad="11"/>
+<connect gate="U1" pin="FB" pad="2"/>
+<connect gate="U1" pin="GATE" pad="5"/>
+<connect gate="U1" pin="GND" pad="12"/>
+<connect gate="U1" pin="IN+" pad="16"/>
+<connect gate="U1" pin="OUT" pad="4"/>
+<connect gate="U1" pin="SNS" pad="7"/>
+<connect gate="U1" pin="TMR" pad="1"/>
+<connect gate="U1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
