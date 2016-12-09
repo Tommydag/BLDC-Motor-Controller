@@ -2452,7 +2452,6 @@ lockout or always-on regulator.</description>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="47n"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="10u"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="100u"/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="2010" value="51"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="30k"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="2.8k"/>
@@ -2514,7 +2513,6 @@ lockout or always-on regulator.</description>
 <instance part="C4" gate="G$1" x="7.62" y="-26.67"/>
 <instance part="C5" gate="G$1" x="63.5" y="68.58"/>
 <instance part="GND8" gate="1" x="63.5" y="52.07"/>
-<instance part="C6" gate="G$1" x="45.72" y="58.42"/>
 <instance part="R18" gate="G$1" x="-111.76" y="52.07"/>
 <instance part="R19" gate="G$1" x="-118.11" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="-115.57" y="59.9186" size="1.778" layer="95"/>
@@ -2637,12 +2635,7 @@ lockout or always-on regulator.</description>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="36.83" y1="21.59" x2="36.83" y2="25.4" width="0.4064" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="36.83" y1="25.4" x2="36.83" y2="36.83" width="0.4064" layer="91"/>
-<wire x1="45.72" y1="55.88" x2="45.72" y2="25.4" width="0.4064" layer="91"/>
-<wire x1="45.72" y1="25.4" x2="36.83" y2="25.4" width="0.4064" layer="91"/>
-<junction x="36.83" y="25.4"/>
+<wire x1="36.83" y1="21.59" x2="36.83" y2="36.83" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -2651,11 +2644,8 @@ lockout or always-on regulator.</description>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="85.09" y1="59.69" x2="63.5" y2="59.69" width="0.4064" layer="91"/>
-<wire x1="63.5" y1="59.69" x2="63.5" y2="54.61" width="0.4064" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="59.69" x2="63.5" y2="66.04" width="0.4064" layer="91"/>
-<junction x="63.5" y="59.69"/>
+<wire x1="63.5" y1="54.61" x2="63.5" y2="66.04" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -2717,17 +2707,10 @@ lockout or always-on regulator.</description>
 <wire x1="16.51" y1="80.01" x2="36.83" y2="80.01" width="0.4064" layer="91"/>
 <wire x1="36.83" y1="80.01" x2="36.83" y2="69.85" width="0.4064" layer="91"/>
 <junction x="16.51" y="80.01"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="45.72" y1="63.5" x2="45.72" y2="80.01" width="0.4064" layer="91"/>
-<wire x1="45.72" y1="80.01" x2="36.83" y2="80.01" width="0.4064" layer="91"/>
 <junction x="36.83" y="80.01"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="85.09" y1="80.01" x2="63.5" y2="80.01" width="0.4064" layer="91"/>
 <wire x1="63.5" y1="80.01" x2="63.5" y2="73.66" width="0.4064" layer="91"/>
-<wire x1="63.5" y1="80.01" x2="45.72" y2="80.01" width="0.4064" layer="91"/>
-<junction x="45.72" y="80.01"/>
-<wire x1="45.72" y1="80.01" x2="44.45" y2="80.01" width="0.4064" layer="91"/>
-<junction x="63.5" y="80.01"/>
+<wire x1="63.5" y1="80.01" x2="36.83" y2="80.01" width="0.4064" layer="91"/>
 <pinref part="U1" gate="U1" pin="OUT"/>
 <wire x1="10.16" y1="22.86" x2="10.16" y2="31.75" width="0.4064" layer="91"/>
 <pinref part="Q3" gate="Q1" pin="D"/>
@@ -2766,8 +2749,6 @@ lockout or always-on regulator.</description>
 </net>
 <net name="N$15" class="0">
 <segment>
-<wire x1="85.09" y1="69.85" x2="74.93" y2="69.85" width="0.4064" layer="91"/>
-<wire x1="74.93" y1="-2.54" x2="74.93" y2="69.85" width="0.4064" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="41.91" y1="-2.54" x2="54.61" y2="-2.54" width="0.4064" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
