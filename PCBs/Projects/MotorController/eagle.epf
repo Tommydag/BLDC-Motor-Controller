@@ -7,11 +7,36 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/Adafruit-Eagle-Library/adafruit.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/CustomLibraries/IC.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/GeekAmmo.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/LilyPad-Wearables.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-AnalogIC.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Boards.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Displays.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-LED.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Passives.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-RF.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Retired.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/SparkFun-Eagle-Libraries/User-Submitted.lbr"
 UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Projects/MotorControllerOld/drilegend.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/Eagle_Part_Library/dp_devices.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/Eagle_Part_Library/dp_devices.v6.lbr"
+UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BLDCMotorControllerTVD/PCBs/Libraries/Eagle_Part_Library/dp_pcb.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 2559 1360"
+Loc="-9 -9 2550 1351"
 State=1
 Number=0
 
