@@ -1,7 +1,7 @@
 [Eagle]
 Version="07 07 00"
 Platform="Windows"
-Serial="62191E841E-LSR-WLM-1EL"
+Serial="74312FDA4F-LSR-WLM-1ES"
 Globals="Globals"
 Desktop="Desktop"
 
@@ -36,8 +36,8 @@ UsedLibrary="C:/Users/Tommydag/OneDrive - Rose-Hulman Institute of Technology/BL
 
 [Win_1]
 Type="Control Panel"
-Loc="-9 -9 2550 1351"
-State=1
+Loc="193 334 1290 1192"
+State=2
 Number=0
 
 [Desktop]
