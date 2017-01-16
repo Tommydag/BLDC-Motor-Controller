@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLDC_Software\Sensored BLDC Motor Control">
+<ExpandedNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Pins</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Analog</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Clocks</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Interrupts</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\DMA</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\System</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Directives</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Flash Security</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\EEPROM</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files\cyapicallbacks.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Source Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\Source Files\main.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Pins</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Analog</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Clocks</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Interrupts</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\System</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Directives</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Flash Security</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\getvalue.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\motor.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\speed.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\userinterface.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\getvalue.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\main.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\motor.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\speedloop.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\userinterface.c</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Pins</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Analog</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Clocks</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Interrupts</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\DMA</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\System</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Directives</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Flash Security</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\EEPROM</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files\cyapicallbacks.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Source Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\Source Files\main.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Pins</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Analog</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Clocks</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Interrupts</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\System</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Directives</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Flash Security</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\getvalue.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\motor.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\speed.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\userinterface.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\getvalue.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\main.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\motor.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\speedloop.c</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\userinterface.c</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysch</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysym</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysch</v>
+<v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysym</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.gpdsc</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.rpt</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project_timing.html</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.gpdsc</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.rpt</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.gpdsc</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.rpt</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project_timing.html</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.gpdsc</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.rpt</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\PSoC 5LP Architecture TRM</v>
+<v>BLDC_Software\BLDC_Testing_Project\CY8C58LP Family Datasheet</v>
+<v>BLDC_Software\BLDC_Testing_Project\System Reference Guides</v>
+<v>BLDC_Software\BLDC_Testing_Project\System Reference Guides\cy_boot_v5_50</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4 Architecture TRM</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4200 Family Datasheet</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\System Reference Guides</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\System Reference Guides\cy_boot_v4_11</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\and_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_clock_v2_20</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_constant_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_isr_v1_70</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_pins_v2_5</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_pins_v2_5\cy_pins_v2_5.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_tff_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyControlReg_v1_70</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyControlReg_v1_70\CyControlReg_v1_70.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyStatusReg_v1_80.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Gnd_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\LUT_v1_50</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\LUT_v1_50\LUT_v1_50.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Resistor_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\SCB_P4_v1_20.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TCPWM_P4_v1_10</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TCPWM_P4_v1_10\TCPWM_P4_v1_10.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\xor_v1_0</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\xor_v1_0\xor_v1_0.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>BLDC_Software</v>
+<v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\PSoC 5LP Architecture TRM</v>
+<v>BLDC_Software\BLDC_Testing_Project\CY8C58LP Family Datasheet</v>
+<v>BLDC_Software\BLDC_Testing_Project\System Reference Guides</v>
+<v>BLDC_Software\BLDC_Testing_Project\System Reference Guides\cy_boot_v5_50</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4 Architecture TRM</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4200 Family Datasheet</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\System Reference Guides</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\System Reference Guides\cy_boot_v4_11</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\and_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_clock_v2_20</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_clock_v2_20\cy_clock_v2_20.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_constant_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_isr_v1_70</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_pins_v2_5</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_pins_v2_5\cy_pins_v2_5.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\cy_tff_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyControlReg_v1_70</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyControlReg_v1_70\CyControlReg_v1_70.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\CyStatusReg_v1_80.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Gnd_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\LUT_v1_50</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\LUT_v1_50\LUT_v1_50.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Resistor_v1_0.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\SCB_P4_v1_20.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TCPWM_P4_v1_10</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\TCPWM_P4_v1_10\TCPWM_P4_v1_10.pdf</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\xor_v1_0</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\xor_v1_0\xor_v1_0.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+<dataGuid v="5f2be1a5-0687-4501-bb8c-cf21cb8211bf">
+<CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf type_name="CyDesigner.Common.ProjMgmt.GUI.CyBookmarkData" version="1">
+<indicators />
+</CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
