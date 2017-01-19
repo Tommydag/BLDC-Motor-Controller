@@ -348,6 +348,104 @@
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51" rot="R180"/>
 </package>
+<package name="ISOPLUS-DIL">
+<smd name="S6" x="0" y="0" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="L3" x="35.5" y="1.5" dx="5" dy="4.5" layer="1" roundness="5"/>
+<smd name="G6" x="0" y="3" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S5" x="0" y="6" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G5" x="0" y="9" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S4" x="0" y="12" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G4" x="0" y="15" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S3" x="0" y="18" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G3" x="0" y="21" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S2" x="0" y="24" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G2" x="0" y="27" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S1" x="0" y="30" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G1" x="0" y="33" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="L2" x="35.5" y="7.5" dx="5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L1" x="35.5" y="13.5" dx="5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L-" x="35.5" y="25.5" dx="5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L+" x="35.5" y="31.5" dx="5" dy="4.5" layer="1" roundness="5"/>
+<wire x1="3.5" y1="-2.5" x2="32" y2="-2.5" width="0.4064" layer="21"/>
+<wire x1="32" y1="-2.5" x2="32" y2="35" width="0.4064" layer="21"/>
+<wire x1="32" y1="35" x2="3.5" y2="35" width="0.4064" layer="21"/>
+<wire x1="3.5" y1="35" x2="3.5" y2="-2.5" width="0.4064" layer="21"/>
+</package>
+<package name="CB5PIN">
+<text x="6" y="14.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="6.085" y="12.105" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.5"/>
+<pad name="3" x="1.91" y="0" drill="0.8" diameter="1.5"/>
+<pad name="1" x="-1.91" y="0" drill="0.8" diameter="1.5"/>
+<pad name="5_3" x="-6.5" y="19.4" drill="0.5"/>
+<pad name="5_2" x="-4.5" y="19.4" drill="0.5"/>
+<pad name="5_1" x="-2.5" y="19.4" drill="0.5"/>
+<pad name="5_5" x="-8" y="22.4" drill="0.5"/>
+<pad name="5_6" x="-6.5" y="23.4" drill="0.5"/>
+<pad name="5_7" x="-4.5" y="23.4" drill="0.5"/>
+<pad name="5_8" x="-2.5" y="23.4" drill="0.5"/>
+<pad name="4_8" x="2.5" y="23.4" drill="0.5"/>
+<pad name="4_1" x="2.5" y="19.4" drill="0.5"/>
+<pad name="4_2" x="4.5" y="19.4" drill="0.5"/>
+<pad name="4_3" x="6.5" y="19.4" drill="0.5"/>
+<pad name="4_5" x="8" y="22.4" drill="0.5"/>
+<pad name="4_6" x="6.5" y="23.4" drill="0.5"/>
+<pad name="4_7" x="4.5" y="23.4" drill="0.5"/>
+<wire x1="-6" y1="22.4" x2="-2.5" y2="22.4" width="0.254" layer="20"/>
+<wire x1="-2.5" y1="22.4" x2="-2" y2="21.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="-6" y1="20.4" x2="-7" y2="21.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="-7" y1="21.4" x2="-6" y2="22.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="6" y1="20.4" x2="2.5" y2="20.4" width="0.254" layer="20"/>
+<wire x1="2.5" y1="20.4" x2="2" y2="21.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="6" y1="22.4" x2="7" y2="21.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="7" y1="21.4" x2="6" y2="20.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="-6" y1="20.4" x2="-2.5" y2="20.4" width="0.254" layer="20"/>
+<wire x1="-2.5" y1="20.4" x2="-2" y2="21.4" width="0.254" layer="20" curve="90"/>
+<wire x1="2" y1="21.4" x2="2.5" y2="22.4" width="0.254" layer="20" curve="-90"/>
+<wire x1="2.5" y1="22.4" x2="6" y2="22.4" width="0.254" layer="20"/>
+<pad name="5_4" x="-8" y="20.4" drill="0.5"/>
+<pad name="4_4" x="8" y="20.4" drill="0.5"/>
+<polygon width="0.254" layer="1">
+<vertex x="-2" y="24.4" curve="-90"/>
+<vertex x="-1" y="23.4"/>
+<vertex x="-1" y="19.4" curve="-90"/>
+<vertex x="-2" y="18.4"/>
+<vertex x="-6" y="18.4" curve="-90"/>
+<vertex x="-9" y="21.4" curve="-90"/>
+<vertex x="-6" y="24.4"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="2" y="18.4" curve="-90"/>
+<vertex x="1" y="19.4"/>
+<vertex x="1" y="23.4" curve="-90"/>
+<vertex x="2" y="24.4"/>
+<vertex x="6" y="24.4" curve="-90"/>
+<vertex x="9" y="21.4" curve="-90"/>
+<vertex x="6" y="18.4"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="-2" y="24.4" curve="-90"/>
+<vertex x="-1" y="23.4"/>
+<vertex x="-1" y="19.4" curve="-90"/>
+<vertex x="-2" y="18.4"/>
+<vertex x="-6" y="18.4" curve="-90"/>
+<vertex x="-9" y="21.4" curve="-90"/>
+<vertex x="-6" y="24.4"/>
+</polygon>
+<polygon width="0.254" layer="16">
+<vertex x="2" y="18.4" curve="-90"/>
+<vertex x="1" y="19.4"/>
+<vertex x="1" y="23.4" curve="-90"/>
+<vertex x="2" y="24.4"/>
+<vertex x="6" y="24.4" curve="-90"/>
+<vertex x="9" y="21.4" curve="-90"/>
+<vertex x="6" y="18.4"/>
+</polygon>
+<wire x1="-5" y1="3" x2="-5" y2="16" width="0.254" layer="21"/>
+<wire x1="-5" y1="16" x2="5" y2="16" width="0.254" layer="21"/>
+<wire x1="5" y1="16" x2="5" y2="3" width="0.254" layer="21"/>
+<wire x1="5" y1="3" x2="-5" y2="3" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8301">
@@ -984,25 +1082,25 @@ lockout or always-on regulator.</description>
 <gate name="G$1" symbol="MTI85W100GC" x="22.86" y="17.78"/>
 </gates>
 <devices>
-<device name="" package="HTSSOP_56">
+<device name="" package="ISOPLUS-DIL">
 <connects>
-<connect gate="G$1" pin="G1" pad="1"/>
-<connect gate="G$1" pin="G2" pad="2"/>
-<connect gate="G$1" pin="G3" pad="3"/>
-<connect gate="G$1" pin="G4" pad="4"/>
-<connect gate="G$1" pin="G5" pad="5"/>
-<connect gate="G$1" pin="G6" pad="6"/>
-<connect gate="G$1" pin="L+" pad="7"/>
-<connect gate="G$1" pin="L-" pad="8"/>
-<connect gate="G$1" pin="L1" pad="9"/>
-<connect gate="G$1" pin="L2" pad="10"/>
-<connect gate="G$1" pin="L3" pad="11"/>
-<connect gate="G$1" pin="S1" pad="12"/>
-<connect gate="G$1" pin="S2" pad="13"/>
-<connect gate="G$1" pin="S3" pad="14"/>
-<connect gate="G$1" pin="S4" pad="15"/>
-<connect gate="G$1" pin="S5" pad="16"/>
-<connect gate="G$1" pin="S6" pad="17"/>
+<connect gate="G$1" pin="G1" pad="G1"/>
+<connect gate="G$1" pin="G2" pad="G2"/>
+<connect gate="G$1" pin="G3" pad="G3"/>
+<connect gate="G$1" pin="G4" pad="G4"/>
+<connect gate="G$1" pin="G5" pad="G5"/>
+<connect gate="G$1" pin="G6" pad="G6"/>
+<connect gate="G$1" pin="L+" pad="L+"/>
+<connect gate="G$1" pin="L-" pad="L-"/>
+<connect gate="G$1" pin="L1" pad="L1"/>
+<connect gate="G$1" pin="L2" pad="L2"/>
+<connect gate="G$1" pin="L3" pad="L3"/>
+<connect gate="G$1" pin="S1" pad="S1"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S4" pad="S4"/>
+<connect gate="G$1" pin="S5" pad="S5"/>
+<connect gate="G$1" pin="S6" pad="S6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1015,13 +1113,13 @@ lockout or always-on regulator.</description>
 <gate name="G$1" symbol="ACS758LCB-U" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="HTSSOP">
+<device name="" package="CB5PIN">
 <connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="IP+" pad="2"/>
-<connect gate="G$1" pin="IP-" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
-<connect gate="G$1" pin="VIOUT" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IP+" pad="4_1 4_2 4_3 4_4 4_5 4_6 4_7 4_8"/>
+<connect gate="G$1" pin="IP-" pad="5_1 5_2 5_3 5_4 5_5 5_6 5_7 5_8"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VIOUT" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
