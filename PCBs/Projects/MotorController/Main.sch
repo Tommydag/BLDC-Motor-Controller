@@ -8855,7 +8855,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <wire x1="203.2" y1="170.18" x2="233.68" y2="170.18" width="0.4064" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="IND_LOOP_IN" class="0">
 <segment>
 <pinref part="U1" gate="U1" pin="PH"/>
 <wire x1="203.2" y1="167.64" x2="231.14" y2="167.64" width="0.4064" layer="91"/>
@@ -9217,7 +9217,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <junction x="259.08" y="147.32"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="IND_LOOP_OUT" class="0">
 <segment>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="281.94" y1="167.64" x2="281.94" y2="170.18" width="0.4064" layer="91"/>
