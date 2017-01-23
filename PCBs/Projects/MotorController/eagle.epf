@@ -7,13 +7,38 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Adafruit_eagle_lib/adafruit.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/CustomLibraries/modules.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/dp_devices_lib/dp_devices.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/dp_devices_lib/dp_devices.v6.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/dp_devices_lib/dp_pcb.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/GeekAmmo.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/LilyPad-Wearables.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Aesthetics.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-AnalogIC.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Boards.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Connectors.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-DigitalIC.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Displays.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Electromechanical.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-FreqCtrl.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-LED.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Passives.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-PowerIC.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-RF.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Resistors.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Retired.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/SparkFun-Sensors.lbr"
+UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sparkfun_lib/User-Submitted.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="812 605 1909 1153"
+Loc="363 459 1791 1007"
 State=2
 Number=0
 
 [Desktop]
-Screen="4480 1440"
+Screen="1920 1080"
 Window="Win_1"
