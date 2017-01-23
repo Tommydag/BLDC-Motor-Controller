@@ -13,12 +13,11 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLDC_Software\Sensored BLDC Motor Control">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI.h">
 <ExpandedNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Pins</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Analog</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Clocks</v>
@@ -30,9 +29,154 @@
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\EEPROM</v>
 <v>BLDC_Software\BLDC_Testing_Project\Header Files</v>
 <v>BLDC_Software\BLDC_Testing_Project\Header Files\cyapicallbacks.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files\globals.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Header Files\utilities.h</v>
 <v>BLDC_Software\BLDC_Testing_Project\Source Files</v>
 <v>BLDC_Software\BLDC_Testing_Project\Source Files\main.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\BLDC_Testing_Project\Source Files\utilities.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\CReg_Dir</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\CReg_Dir\CReg_Dir.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\CReg_Dir\CReg_Dir.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\CReg_PWMOut\CReg_PWMOut.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\CReg_PWMOut\CReg_PWMOut.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cm3gcc.ld</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\Cm3Iar.icf</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\Cm3RealView.scat</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\Cm3Start.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cmsis_armcc.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cmsis_gcc.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\core_cm3.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\core_cm3_psoc5.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\core_cmFunc.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\core_cmInstr.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyBootAsmGnu.s</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyBootAsmIar.s</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyBootAsmRv.s</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyDmac.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyDmac.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyFlash.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyFlash.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyLib.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CyLib.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cypins.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cyPm.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cyPm.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CySpc.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\CySpc.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cytypes.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cy_boot\cyutils.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DebugLED</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DebugLED\DebugLED.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DebugLED\DebugLED.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DebugLED\DebugLED_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DieTemp</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DieTemp\DieTemp.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\DieTemp\DieTemp.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\EN_GATE</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\EN_GATE\EN_GATE.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\EN_GATE\EN_GATE.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\EN_GATE\EN_GATE_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\HallIn</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\HallIn\HallIn_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MainPWM</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MainPWM\MainPWM.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MainPWM\MainPWM.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MainPWM\MainPWM_PM.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MISO</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MISO\MISO.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MISO\MISO.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MISO\MISO_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\miso_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\miso_dup\miso_dup.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\miso_dup\miso_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\miso_dup\miso_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MOSI</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MOSI\MOSI.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MOSI\MOSI.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\MOSI\MOSI_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\mosi_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\mosi_dup\mosi_dup.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\mosi_dup\mosi_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\mosi_dup\mosi_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nFAULT</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nFAULT\nFAULT.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nFAULT\nFAULT.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nFAULT\nFAULT_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nOCTW</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nOCTW\nOCTW.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nOCTW\nOCTW.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nOCTW\nOCTW_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS\nSS.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS\nSS.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS\nSS_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_INT.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_PM.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_PVT.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock\SPI_IntClock.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock\SPI_IntClock.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cymetadata.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\project.h</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Pins</v>
@@ -55,50 +199,63 @@
 <v>BLDC_Software\Sensored BLDC Motor Control\Source Files\userinterface.c</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
-<v>BLDC_Software</v>
-<v>BLDC_Software\BLDC_Testing_Project</v>
-<v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Pins</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Analog</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Clocks</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Interrupts</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\DMA</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\System</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Directives</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\Flash Security</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.cydwr\EEPROM</v>
-<v>BLDC_Software\BLDC_Testing_Project\Header Files</v>
-<v>BLDC_Software\BLDC_Testing_Project\Header Files\cyapicallbacks.h</v>
-<v>BLDC_Software\BLDC_Testing_Project\Source Files</v>
-<v>BLDC_Software\BLDC_Testing_Project\Source Files\main.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\TopDesign</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Pins</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Analog</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Clocks</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Interrupts</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\System</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Directives</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.cydwr\Flash Security</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Header Files</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\getvalue.h</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\motor.h</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\speed.h</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Header Files\userinterface.h</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\getvalue.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\main.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\motor.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\speedloop.c</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Source Files\userinterface.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH\PWMAH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAL\PWMAL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBH\PWMBH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMBL\PWMBL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCH\PWMCH_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMCL\PWMCL_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SCLK\SCLK_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\sclk_dup\sclk_dup_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_INT.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_PM.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI\SPI_PVT.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock\SPI_IntClock.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\SPI_IntClock\SPI_IntClock.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareexport.ld</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareimport.ld</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareimport.scat</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice_trm.h</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering\HallEffectOrdering.cysym</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering\HallEffectOrdering.v</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysch</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysym</v>
@@ -109,6 +266,9 @@
 <VisibleNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering\HallEffectOrdering.cysym</v>
+<v>BLDC_Software\BLDC_Testing_Project\HallEffectOrdering\HallEffectOrdering.v</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysch</v>
 <v>BLDC_Software\BLDC_Testing_Project\TopDesign\TopDesign.cysym</v>
@@ -121,6 +281,52 @@
 <ExpandedNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CReg_Dir.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CReg_PWMOut.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\DebugLED.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\DieTemp.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\EN_GATE.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MainPWM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MainPWM_PM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MISO.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\miso_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MOSI.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\mosi_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nFAULT.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nOCTW.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nSS.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nSS_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMAH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMAL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMBH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMBL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMCH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMCL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SCLK.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\sclk_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_INT.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_IntClock.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_PM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\utilities.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.elf</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.hex</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.map</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.gpdsc</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.rpt</v>
 <v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project_timing.html</v>
@@ -132,13 +338,52 @@
 <VisibleNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.gpdsc</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.rpt</v>
-<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project_timing.html</v>
-<v>BLDC_Software\Sensored BLDC Motor Control</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.gpdsc</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.rpt</v>
-<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control_timing.html</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\Cm3Start.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CReg_Dir.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CReg_PWMOut.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyDmac.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyFlash.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CyLib.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cymetadata.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyPm.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\CySpc.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\cyutils.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\DebugLED.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\DieTemp.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\EN_GATE.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\main.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MainPWM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MainPWM_PM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MISO.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\miso_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\MOSI.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\mosi_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nFAULT.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nOCTW.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nSS.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\nSS_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMAH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMAL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMBH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMBL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMCH.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\PWMCL.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SCLK.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\sclk_dup.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_INT.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_IntClock.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\SPI_PM.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\Listing Files\utilities.lst</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.elf</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.hex</v>
+<v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.map</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -146,7 +391,7 @@
 <v>Datasheet</v>
 </TreeKeysV2>
 <TreeStatesV2>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLDC_Software">
 <ExpandedNodeIds>
 <v>BLDC_Software</v>
 <v>BLDC_Software\BLDC_Testing_Project</v>
@@ -154,6 +399,22 @@
 <v>BLDC_Software\BLDC_Testing_Project\CY8C58LP Family Datasheet</v>
 <v>BLDC_Software\BLDC_Testing_Project\System Reference Guides</v>
 <v>BLDC_Software\BLDC_Testing_Project\System Reference Guides\cy_boot_v5_50</v>
+<v>BLDC_Software\BLDC_Testing_Project\and_v1_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_clock_v2_20.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_constant_v1_0</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_20</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_5</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_5\cy_pins_v2_5.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\CyControlReg_v1_70</v>
+<v>BLDC_Software\BLDC_Testing_Project\CyControlReg_v1_70\CyControlReg_v1_70.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\DieTemp_v2_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\LUT_v1_50.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\PWM_v3_30.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\SPI_Master_v2_50.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\xor_v1_0</v>
+<v>BLDC_Software\BLDC_Testing_Project\xor_v1_0\xor_v1_0.pdf</v>
 <v>BLDC_Software\Sensored BLDC Motor Control</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4 Architecture TRM</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4200 Family Datasheet</v>
@@ -188,6 +449,22 @@
 <v>BLDC_Software\BLDC_Testing_Project\CY8C58LP Family Datasheet</v>
 <v>BLDC_Software\BLDC_Testing_Project\System Reference Guides</v>
 <v>BLDC_Software\BLDC_Testing_Project\System Reference Guides\cy_boot_v5_50</v>
+<v>BLDC_Software\BLDC_Testing_Project\and_v1_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_clock_v2_20.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_constant_v1_0</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_constant_v1_0\cy_constant_v1_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_20</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_20\cy_pins_v2_20.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_5</v>
+<v>BLDC_Software\BLDC_Testing_Project\cy_pins_v2_5\cy_pins_v2_5.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\CyControlReg_v1_70</v>
+<v>BLDC_Software\BLDC_Testing_Project\CyControlReg_v1_70\CyControlReg_v1_70.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\DieTemp_v2_0.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\LUT_v1_50.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\PWM_v3_30.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\SPI_Master_v2_50.pdf</v>
+<v>BLDC_Software\BLDC_Testing_Project\xor_v1_0</v>
+<v>BLDC_Software\BLDC_Testing_Project\xor_v1_0\xor_v1_0.pdf</v>
 <v>BLDC_Software\Sensored BLDC Motor Control</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4 Architecture TRM</v>
 <v>BLDC_Software\Sensored BLDC Motor Control\PSoC 4200 Family Datasheet</v>
@@ -224,10 +501,32 @@
 <indicators />
 </CyGuid_5f2be1a5-0687-4501-bb8c-cf21cb8211bf>
 </dataGuid>
+<dataGuid v="6c335137-fa19-46ce-bc2d-2fbeb6d5f2a2">
+<CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2 type_name="CyDesigner.Common.ProjMgmt.GUI.CyDependenciesCustomData" version="1">
+<dictName v=".\BLDC_Testing_Project.cydsn\BLDC_Testing_Project.cyprj">
+<listName />
+</dictName>
+</CyGuid_70084457-cd6a-4593-9ed0-7f6eeb432dc2>
+</dataGuid>
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\BLDC_Testing_Project.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\BLDC_Testing_Project.cydsn\main.c" />
+<name v=".\BLDC_Testing_Project.cydsn\BLDC_Testing_Project.cydwr" />
+<name v=".\BLDC_Testing_Project.cydsn\globals.h" />
+<name v=".\BLDC_Testing_Project.cydsn\utilities.c" />
+<name v=".\BLDC_Testing_Project.cydsn\utilities.h" />
+<name v=".\BLDC_Testing_Project.cydsn\Generated_Source\PSoC5\SPI.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1453, 628" SelectedTabbedMdiWindow="79e873ab-475e-4961-8650-a22aedbd337f"><DocumentWindow Key="3a89e558-1d77-4e03-8b5c-44ad5204c4a5" Guid="02ac2ba2-d30e-49d1-9425-a61ec8c37fc1" /><DocumentWindow Key="cb047df8-a0e9-4c5d-b613-2a47332a25b8" Guid="7da72d82-447b-41aa-b611-8d3dfff8fc08" /><DocumentWindow Key="f4d56e3a-73bd-494f-9cd3-272fc0603844" Guid="6411decb-7101-47ea-a6e3-9631f3f7cf5d" /><DocumentWindow Key="4410249c-ee38-41e7-b051-e8bf7abf60de" Guid="e8069e83-8976-4177-81ae-8a5a11c8aebf" /><DocumentWindow Key="0ebcd463-02b2-4ad5-b0c3-af6f3c93f190" Guid="79e873ab-475e-4961-8650-a22aedbd337f" /><DocumentWindow Key="2b161f47-3c75-4e57-8120-799aeb06f86e" Guid="08eb4a3d-d0e6-43bb-88bf-ac23d77bbd5a" /><DocumentWindow Key="7ff0c93c-b90b-40b9-811d-d9a66bf4b941" Guid="df186659-c387-4669-9d7d-22fe7c530368" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

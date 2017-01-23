@@ -1,25 +1,32 @@
 /* ========================================
  *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
+ * Engineer: Tom D'Agostino
+ * Project: STA EVT BLDC Motor Controller
+ * Date: 6 Jan 2017
+ * Description: Main function for microcontroller
+ * Language: C
+ * Target Hardware: PSOC5LP
+ * Version: 0_1
  *
  * ========================================
 */
+
 #include "project.h"
+#include "utilities.h"
 
 int main(void)
 {
+    
+    hardware_init();
+    
     CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
-
+    
     for(;;)
     {
-        /* Place your application code here. */
+        DebugLED_Write(1u);
+        CyDelay(500);
+        DebugLED_Write(0u);
+        CyDelay(500);
     }
 }
 

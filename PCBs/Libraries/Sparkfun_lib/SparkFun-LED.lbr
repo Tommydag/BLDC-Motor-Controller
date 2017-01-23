@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2618,6 +2618,17 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <technology name="">
 <attribute name="PROD_ID" value="DIO-12986"/>
 </technology>
+</technologies>
+</device>
+<device name="CLV1A-FKB" package="P-LCC-4-3">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="2"/>
+<connect gate="G$1" pin="BLUE" pad="3"/>
+<connect gate="G$1" pin="GREEN" pad="4"/>
+<connect gate="G$1" pin="RED" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
