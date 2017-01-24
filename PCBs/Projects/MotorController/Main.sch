@@ -179,6 +179,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<polygon width="0.127" layer="41">
+<vertex x="-0.508" y="0.889"/>
+<vertex x="-0.508" y="-1.016"/>
+<vertex x="0.381" y="-1.016"/>
+<vertex x="0.381" y="1.016"/>
+<vertex x="-0.508" y="1.016"/>
+</polygon>
 </package>
 <package name="AXIAL-0.3">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
@@ -9296,10 +9303,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="SRP7050TA-220M" value="22u"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
-<part name="S2" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
-<part name="S4" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
-<part name="S5" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
 <part name="S6" library="SparkFun-Electromechanical" deviceset="STANDOFF_ELECTRICAL" device=""/>
 <part name="R41" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="1M"/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11599,10 +11602,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <instance part="FD4" gate="G$1" x="55.88" y="243.84"/>
 <instance part="FD6" gate="G$1" x="71.12" y="243.84"/>
 <instance part="S1" gate="G$1" x="40.64" y="223.52"/>
-<instance part="S2" gate="G$1" x="63.5" y="223.52"/>
-<instance part="S3" gate="G$1" x="78.74" y="223.52"/>
-<instance part="S4" gate="G$1" x="93.98" y="223.52"/>
-<instance part="S5" gate="G$1" x="109.22" y="223.52"/>
 <instance part="S6" gate="G$1" x="124.46" y="223.52"/>
 <instance part="R41" gate="G$1" x="50.8" y="215.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.34" y="214.8586" size="1.778" layer="95"/>
