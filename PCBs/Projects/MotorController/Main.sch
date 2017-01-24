@@ -9279,9 +9279,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100"/>
 <part name="R30" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="100"/>
-<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
-<part name="FD5" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FD6" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -11598,9 +11595,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="67.31" y="201.93" size="1.778" layer="97">Standoffs for M3 screws</text>
 </plain>
 <instances>
-<instance part="FD1" gate="G$1" x="40.64" y="256.54"/>
-<instance part="FD3" gate="G$1" x="55.88" y="256.54"/>
-<instance part="FD5" gate="G$1" x="71.12" y="256.54"/>
 <instance part="FD2" gate="G$1" x="40.64" y="243.84"/>
 <instance part="FD4" gate="G$1" x="55.88" y="243.84"/>
 <instance part="FD6" gate="G$1" x="71.12" y="243.84"/>
