@@ -199,6 +199,10 @@
 <v>BLDC_Software\Sensored BLDC Motor Control\Source Files\userinterface.c</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS\nSS.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS\nSS_aliases.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup.c</v>
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup.h</v>
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\nSS_dup\nSS_dup_aliases.h</v>
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\PWMAH</v>
@@ -247,6 +251,22 @@
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cycodeshareimport.scat</v>
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice.h</v>
 <v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevice_trm.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicegnu.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicegnu_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydeviceiar.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydeviceiar_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicerv.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydevicerv_trm.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cydisabledsheets.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter_cfg.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitter_cfg.h</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfittergnu.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitteriar.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cyfitterrv.inc</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\cymetadata.c</v>
+<v>BLDC_Software\BLDC_Testing_Project\Generated_Source\PSoC5\project.h</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -384,6 +404,13 @@
 <v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.elf</v>
 <v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.hex</v>
 <v>BLDC_Software\BLDC_Testing_Project\CortexM3\ARM_GCC_493\Debug\BLDC_Testing_Project.map</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.gpdsc</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project.rpt</v>
+<v>BLDC_Software\BLDC_Testing_Project\BLDC_Testing_Project_timing.html</v>
+<v>BLDC_Software\Sensored BLDC Motor Control</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.gpdsc</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control.rpt</v>
+<v>BLDC_Software\Sensored BLDC Motor Control\Sensored BLDC Motor Control_timing.html</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -526,7 +553,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="1453, 628" SelectedTabbedMdiWindow="79e873ab-475e-4961-8650-a22aedbd337f"><DocumentWindow Key="3a89e558-1d77-4e03-8b5c-44ad5204c4a5" Guid="02ac2ba2-d30e-49d1-9425-a61ec8c37fc1" /><DocumentWindow Key="cb047df8-a0e9-4c5d-b613-2a47332a25b8" Guid="7da72d82-447b-41aa-b611-8d3dfff8fc08" /><DocumentWindow Key="f4d56e3a-73bd-494f-9cd3-272fc0603844" Guid="6411decb-7101-47ea-a6e3-9631f3f7cf5d" /><DocumentWindow Key="4410249c-ee38-41e7-b051-e8bf7abf60de" Guid="e8069e83-8976-4177-81ae-8a5a11c8aebf" /><DocumentWindow Key="0ebcd463-02b2-4ad5-b0c3-af6f3c93f190" Guid="79e873ab-475e-4961-8650-a22aedbd337f" /><DocumentWindow Key="2b161f47-3c75-4e57-8120-799aeb06f86e" Guid="08eb4a3d-d0e6-43bb-88bf-ac23d77bbd5a" /><DocumentWindow Key="7ff0c93c-b90b-40b9-811d-d9a66bf4b941" Guid="df186659-c387-4669-9d7d-22fe7c530368" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Vertical"><TabbedMdiContainer Size="2093, 988" SelectedTabbedMdiWindow="27836fbe-1b92-4cf0-a0fa-58f4ac9912f9"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="f9992612-3a48-4773-97d4-ba3c9096bb6d" /><DocumentWindow Key="e24ee801-cd91-4472-8d7f-c485a878935c" Guid="22101517-85a3-4c0b-a7ee-281b2e9e93a6" /><DocumentWindow Key="d4824297-5e4e-4bfa-ad8c-055d3d1a2604" Guid="27836fbe-1b92-4cf0-a0fa-58f4ac9912f9" /><DocumentWindow Key="97ebbf41-6696-44fc-882b-65044329bfdd" Guid="2bb5fb59-d69d-41ec-b429-62cdd6539870" /><DocumentWindow Key="672763b6-2acd-4b9e-8128-ff31d6df119a" Guid="1a3b1bca-6b1a-49f3-8c24-5c842b204696" /><DocumentWindow Key="b709b2df-ba4e-476d-b719-dcd6d7bf6c72" Guid="27848900-5d38-4410-8495-3e1d712ca31b" /><DocumentWindow Key="af0f4277-fbcd-40e6-b6ac-b54e9714517a" Guid="16d29bbb-a201-461d-8da4-d131cb295e83" /><DocumentWindow Key="b77dc1b9-2f02-4ca4-9ce9-4b7de1935893" Guid="95488756-2e25-4fb8-be66-1d519a3dc062" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
