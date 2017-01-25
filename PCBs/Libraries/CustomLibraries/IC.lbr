@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16,17 +16,17 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -378,74 +378,114 @@
 <pad name="2" x="0" y="0" drill="0.8" diameter="1.5"/>
 <pad name="3" x="1.91" y="0" drill="0.8" diameter="1.5"/>
 <pad name="1" x="-1.91" y="0" drill="0.8" diameter="1.5"/>
-<pad name="5_3" x="-6.5" y="19.4" drill="0.5"/>
-<pad name="5_2" x="-4.5" y="19.4" drill="0.5"/>
-<pad name="5_1" x="-2.5" y="19.4" drill="0.5"/>
-<pad name="5_5" x="-8" y="22.4" drill="0.5"/>
-<pad name="5_6" x="-6.5" y="23.4" drill="0.5"/>
-<pad name="5_7" x="-4.5" y="23.4" drill="0.5"/>
-<pad name="5_8" x="-2.5" y="23.4" drill="0.5"/>
-<pad name="4_8" x="2.5" y="23.4" drill="0.5"/>
-<pad name="4_1" x="2.5" y="19.4" drill="0.5"/>
-<pad name="4_2" x="4.5" y="19.4" drill="0.5"/>
-<pad name="4_3" x="6.5" y="19.4" drill="0.5"/>
-<pad name="4_5" x="8" y="22.4" drill="0.5"/>
-<pad name="4_6" x="6.5" y="23.4" drill="0.5"/>
-<pad name="4_7" x="4.5" y="23.4" drill="0.5"/>
-<wire x1="-6" y1="22.4" x2="-2.5" y2="22.4" width="0.254" layer="20"/>
-<wire x1="-2.5" y1="22.4" x2="-2" y2="21.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="-6" y1="20.4" x2="-7" y2="21.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="-7" y1="21.4" x2="-6" y2="22.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="6" y1="20.4" x2="2.5" y2="20.4" width="0.254" layer="20"/>
-<wire x1="2.5" y1="20.4" x2="2" y2="21.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="6" y1="22.4" x2="7" y2="21.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="7" y1="21.4" x2="6" y2="20.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="-6" y1="20.4" x2="-2.5" y2="20.4" width="0.254" layer="20"/>
-<wire x1="-2.5" y1="20.4" x2="-2" y2="21.4" width="0.254" layer="20" curve="90"/>
-<wire x1="2" y1="21.4" x2="2.5" y2="22.4" width="0.254" layer="20" curve="-90"/>
-<wire x1="2.5" y1="22.4" x2="6" y2="22.4" width="0.254" layer="20"/>
-<pad name="5_4" x="-8" y="20.4" drill="0.5"/>
-<pad name="4_4" x="8" y="20.4" drill="0.5"/>
-<polygon width="0.254" layer="1">
-<vertex x="-2" y="24.4" curve="-90"/>
-<vertex x="-1" y="23.4"/>
-<vertex x="-1" y="19.4" curve="-90"/>
-<vertex x="-2" y="18.4"/>
-<vertex x="-6" y="18.4" curve="-90"/>
-<vertex x="-9" y="21.4" curve="-90"/>
-<vertex x="-6" y="24.4"/>
-</polygon>
-<polygon width="0.254" layer="1">
-<vertex x="2" y="18.4" curve="-90"/>
-<vertex x="1" y="19.4"/>
-<vertex x="1" y="23.4" curve="-90"/>
-<vertex x="2" y="24.4"/>
-<vertex x="6" y="24.4" curve="-90"/>
-<vertex x="9" y="21.4" curve="-90"/>
-<vertex x="6" y="18.4"/>
-</polygon>
-<polygon width="0.254" layer="16">
-<vertex x="-2" y="24.4" curve="-90"/>
-<vertex x="-1" y="23.4"/>
-<vertex x="-1" y="19.4" curve="-90"/>
-<vertex x="-2" y="18.4"/>
-<vertex x="-6" y="18.4" curve="-90"/>
-<vertex x="-9" y="21.4" curve="-90"/>
-<vertex x="-6" y="24.4"/>
-</polygon>
-<polygon width="0.254" layer="16">
-<vertex x="2" y="18.4" curve="-90"/>
-<vertex x="1" y="19.4"/>
-<vertex x="1" y="23.4" curve="-90"/>
-<vertex x="2" y="24.4"/>
-<vertex x="6" y="24.4" curve="-90"/>
-<vertex x="9" y="21.4" curve="-90"/>
-<vertex x="6" y="18.4"/>
-</polygon>
+<pad name="5_3" x="-5" y="19.5" drill="0.5"/>
+<pad name="5_2" x="-3" y="19.5" drill="0.5"/>
+<pad name="5_1" x="-1.5" y="20" drill="0.5"/>
+<pad name="5_5" x="-7" y="23.5" drill="0.5"/>
+<pad name="5_6" x="-5" y="23.5" drill="0.5"/>
+<pad name="5_7" x="-3" y="23.5" drill="0.5"/>
+<pad name="5_8" x="-1.5" y="23" drill="0.5"/>
+<pad name="4_8" x="1.5" y="23" drill="0.5"/>
+<pad name="4_1" x="1.5" y="20" drill="0.5"/>
+<pad name="4_2" x="3" y="19.5" drill="0.5"/>
+<pad name="4_3" x="5" y="19.5" drill="0.5"/>
+<pad name="4_5" x="7" y="23.5" drill="0.5"/>
+<pad name="4_6" x="5" y="23.5" drill="0.5"/>
+<pad name="4_7" x="3" y="23.5" drill="0.5"/>
+<pad name="5_4" x="-7" y="19.5" drill="0.5"/>
+<pad name="4_4" x="7" y="19.5" drill="0.5"/>
 <wire x1="-5" y1="3" x2="-5" y2="16" width="0.254" layer="21"/>
 <wire x1="-5" y1="16" x2="5" y2="16" width="0.254" layer="21"/>
 <wire x1="5" y1="16" x2="5" y2="3" width="0.254" layer="21"/>
 <wire x1="5" y1="3" x2="-5" y2="3" width="0.254" layer="21"/>
+<wire x1="7" y1="20.4" x2="3" y2="20.4" width="0.1" layer="20"/>
+<wire x1="7" y1="22.4" x2="3" y2="22.4" width="0.1" layer="20"/>
+<wire x1="7" y1="20.4" x2="7" y2="22.4" width="0.1" layer="20" curve="180"/>
+<wire x1="3" y1="20.4" x2="3" y2="22.4" width="0.1" layer="20" curve="-180"/>
+<wire x1="-7" y1="22.4" x2="-3" y2="22.4" width="0.1" layer="20"/>
+<wire x1="-7" y1="20.4" x2="-3" y2="20.4" width="0.1" layer="20"/>
+<wire x1="-7" y1="22.4" x2="-7" y2="20.4" width="0.1" layer="20" curve="180"/>
+<wire x1="-3" y1="22.4" x2="-3" y2="20.4" width="0.1" layer="20" curve="-180"/>
+<polygon width="0.1" layer="1">
+<vertex x="6.2" y="18.4"/>
+<vertex x="2.2" y="18.4" curve="-90"/>
+<vertex x="0.7" y="19.9"/>
+<vertex x="0.7" y="22.9" curve="-90"/>
+<vertex x="2.2" y="24.4"/>
+<vertex x="6.2" y="24.4" curve="-90"/>
+<vertex x="9.2" y="21.4" curve="-90"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="6.2" y="18.4"/>
+<vertex x="2.2" y="18.4" curve="-90"/>
+<vertex x="0.7" y="19.9"/>
+<vertex x="0.7" y="22.9" curve="-90"/>
+<vertex x="2.2" y="24.4"/>
+<vertex x="6.2" y="24.4" curve="-90"/>
+<vertex x="9.2" y="21.4" curve="-90"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="6.2" y="18.2"/>
+<vertex x="2.2" y="18.2" curve="-90"/>
+<vertex x="0.5" y="19.8"/>
+<vertex x="0.5" y="22.8" curve="-90"/>
+<vertex x="2.2" y="24.6"/>
+<vertex x="6.2" y="24.6" curve="-90"/>
+<vertex x="9.4" y="21.4" curve="-90"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="6.2" y="18.2"/>
+<vertex x="2.2" y="18.2" curve="-90"/>
+<vertex x="0.5" y="19.8"/>
+<vertex x="0.5" y="22.8" curve="-90"/>
+<vertex x="2.2" y="24.6"/>
+<vertex x="6.2" y="24.6" curve="-90"/>
+<vertex x="9.4" y="21.4" curve="-90"/>
+</polygon>
+<polygon width="0.1" layer="16">
+<vertex x="-6.2" y="18.4"/>
+<vertex x="-2.2" y="18.4" curve="90"/>
+<vertex x="-0.7" y="19.9"/>
+<vertex x="-0.7" y="22.9" curve="90"/>
+<vertex x="-2.2" y="24.4"/>
+<vertex x="-6.2" y="24.4" curve="90"/>
+<vertex x="-9.2" y="21.4" curve="90"/>
+</polygon>
+<polygon width="0.1" layer="1">
+<vertex x="-6.2" y="18.4"/>
+<vertex x="-2.2" y="18.4" curve="90"/>
+<vertex x="-0.7" y="19.9"/>
+<vertex x="-0.7" y="22.9" curve="90"/>
+<vertex x="-2.2" y="24.4"/>
+<vertex x="-6.2" y="24.4" curve="90"/>
+<vertex x="-9.2" y="21.4" curve="90"/>
+</polygon>
+<polygon width="0.1" layer="30">
+<vertex x="-6.2" y="18.2"/>
+<vertex x="-2.2" y="18.2" curve="90"/>
+<vertex x="-0.5" y="19.8"/>
+<vertex x="-0.5" y="22.8" curve="90"/>
+<vertex x="-2.2" y="24.6"/>
+<vertex x="-6.2" y="24.6" curve="90"/>
+<vertex x="-9.4" y="21.4" curve="90"/>
+</polygon>
+<polygon width="0.1" layer="29">
+<vertex x="-6.2" y="18.2"/>
+<vertex x="-2.2" y="18.2" curve="90"/>
+<vertex x="-0.5" y="19.8"/>
+<vertex x="-0.5" y="22.8" curve="90"/>
+<vertex x="-2.2" y="24.6"/>
+<vertex x="-6.2" y="24.6" curve="90"/>
+<vertex x="-9.4" y="21.4" curve="90"/>
+</polygon>
+<wire x1="7" y1="20.4" x2="3" y2="20.4" width="0.1" layer="46"/>
+<wire x1="7" y1="22.4" x2="3" y2="22.4" width="0.1" layer="46"/>
+<wire x1="7" y1="20.4" x2="7" y2="22.4" width="0.1" layer="46" curve="180"/>
+<wire x1="3" y1="20.4" x2="3" y2="22.4" width="0.1" layer="46" curve="-180"/>
+<wire x1="-7" y1="22.4" x2="-3" y2="22.4" width="0.1" layer="46"/>
+<wire x1="-7" y1="20.4" x2="-3" y2="20.4" width="0.1" layer="46"/>
+<wire x1="-7" y1="22.4" x2="-7" y2="20.4" width="0.1" layer="46" curve="180"/>
+<wire x1="-3" y1="22.4" x2="-3" y2="20.4" width="0.1" layer="46" curve="-180"/>
 </package>
 </packages>
 <symbols>
