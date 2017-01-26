@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -43,7 +43,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -399,14 +399,6 @@
 <wire x1="-5" y1="16" x2="5" y2="16" width="0.254" layer="21"/>
 <wire x1="5" y1="16" x2="5" y2="3" width="0.254" layer="21"/>
 <wire x1="5" y1="3" x2="-5" y2="3" width="0.254" layer="21"/>
-<wire x1="7" y1="20.4" x2="3" y2="20.4" width="0.1" layer="20"/>
-<wire x1="7" y1="22.4" x2="3" y2="22.4" width="0.1" layer="20"/>
-<wire x1="7" y1="20.4" x2="7" y2="22.4" width="0.1" layer="20" curve="180"/>
-<wire x1="3" y1="20.4" x2="3" y2="22.4" width="0.1" layer="20" curve="-180"/>
-<wire x1="-7" y1="22.4" x2="-3" y2="22.4" width="0.1" layer="20"/>
-<wire x1="-7" y1="20.4" x2="-3" y2="20.4" width="0.1" layer="20"/>
-<wire x1="-7" y1="22.4" x2="-7" y2="20.4" width="0.1" layer="20" curve="180"/>
-<wire x1="-3" y1="22.4" x2="-3" y2="20.4" width="0.1" layer="20" curve="-180"/>
 <polygon width="0.1" layer="1">
 <vertex x="6.2" y="18.4"/>
 <vertex x="2.2" y="18.4" curve="-90"/>
