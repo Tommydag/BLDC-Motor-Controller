@@ -35,8 +35,8 @@ UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sp
 
 [Win_1]
 Type="Control Panel"
-Loc="491 319 1919 867"
-State=2
+Loc="369 240 1797 788"
+State=0
 Number=0
 
 [Desktop]
