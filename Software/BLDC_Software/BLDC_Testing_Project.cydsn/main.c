@@ -13,32 +13,33 @@
 
 #include "project.h"
 #include "utilities.h"
-#include "drv8301_utilities.h"
+//#include "drv8301_utilities.h"
 
 int main(void)
 {
     /* Enable global interrupts. */
     CyGlobalIntEnable;
     
-    //Her we go baby! WDT deadman switch enabled!
-    //CyWdtStart(CYWDT_1024_TICKS,CYWDT_LPMODE_DISABLED);
+    //Here we go baby! WDT deadman switch enabled!
+    CyWdtStart(CYWDT_1024_TICKS,CYWDT_LPMODE_DISABLED);
     
     //Get hardware setup
     hardware_init();
     
-     
+    uint8_t cstate = 0;
     
+    RedLedBrightness_WritePulse0(0x010F);
+    BlueLedBrightness_WritePulse0(0x010F);
+    GreenLedBrightness_WritePulse0(0x010F);
+    DebugLED_Write(1u);
     for(;;)
     {
-        DRV8301_STATUS dstat;
-        uint32_t timeout_counter = 0;
-        DebugLED_Write(1u);
-        CyDelay(500);
-        CyWdtClear();
-        DebugLED_Write(0u);
-        CyDelay(500);
-        CyWdtClear();
+        uint8 status = update_throttle_val(0);
+        updateIndicators(status);
         
+        check_vin_fault();
+        CyDelayUs(1);
+        CyWdtClear();
     }
 }
 

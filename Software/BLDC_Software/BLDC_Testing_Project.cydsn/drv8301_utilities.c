@@ -83,10 +83,6 @@ DRV8301_STATUS drv8301_read_status(void){
     }
     
     
-    
-    
-    
-    
     dstat.COM_ERROR = 0;
     dstat.FAULT=0;
     dstat.GVDD_UV=0;
