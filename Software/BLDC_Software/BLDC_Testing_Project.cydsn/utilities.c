@@ -45,14 +45,17 @@ uint8_t hardware_init(void) {
     ThrottleSAR_SetPower(SAR_HIGH_POWER);
     ThrottleSAR_IRQ_Disable();
     ThrottleSAR_StartConvert();
-    
+
     SPI_Start();
     
-    //Vin_Fault_ISR_StartEx(Vin_Fault);
+    Vin_Fault_ISR_StartEx(Vin_Fault);
     
     RedLedBrightness_Start();
     GreenLedBrightness_Start();
     BlueLedBrightness_Start();
+    RedLedBrightness_WritePulse0(0x010F);
+    BlueLedBrightness_WritePulse0(0x010F);
+    GreenLedBrightness_WritePulse0(0x010F);
     CReg_LED_Write(LED_ENABLE);
     
     drv8301_read_status();
@@ -74,7 +77,8 @@ uint8_t update_throttle_val(uint8 disable) {
     uint8_t status = CYRET_SUCCESS;
     
     //Check if the motor is supposed to be disabled
-    if(~disable){
+    if(disable!=2){
+        
         //Collect sample and index samples array
         if(throttle_array_index<NUM_OF_SAMPLES){
             throttle_values[throttle_array_index] = CY_GET_REG16(ThrottleSAR_SAR_WRK0_PTR);
@@ -87,7 +91,8 @@ uint8_t update_throttle_val(uint8 disable) {
         
         //Only update the throttle every 4th collected sample
         if( (throttle_array_index%4)==0){
-            
+            //Make sure gate driver is on
+            CReg_DriveMotor_Write(EN_GATE_DRIVER);
             //Compute the sum of of the last NUM_OF_SAMPLES
             uint32 running_sum4_throttle = 0u;
             uint8 sum_index = 0u;
@@ -133,6 +138,12 @@ uint8_t update_throttle_val(uint8 disable) {
         
         //Set motor throttle
         if(disabled_throttle<=MAX_PWM_COUNTS){
+            if(disabled_throttle<=1){
+                CReg_DriveMotor_Write(~EN_GATE_DRIVER);
+            }
+            else{
+                CReg_DriveMotor_Write(EN_GATE_DRIVER);
+            }
             MotorPWM_WriteCompare((uint16)disabled_throttle); 
         }
         else{
@@ -201,7 +212,6 @@ uint8 check_vin_fault(void){
             RedLedBrightness_Wakeup();
             GreenLedBrightness_Wakeup();
             BlueLedBrightness_Wakeup();
-            //MotorPWM_Wakeup();
             
             //CReg_DriveMotor_Write(EN_GATE_DRIVER);
             CReg_LED_Write(LED_ENABLE);
@@ -215,34 +225,35 @@ uint8 check_vin_fault(void){
 }
 
 /*******************************************************************************
-* ISR Name: vin_fault
-********************************************************************************
-*
-*******************************************************************************/
-CY_ISR(Vin_Fault){
-    Vin_Fault_Change_Flag = 1; 
-}
-
-/*******************************************************************************
 * Function Name: updateIndicators
 ********************************************************************************
 *
 *******************************************************************************/
 void updateIndicators(uint8 status){
     if(status==CYRET_SUCCESS){
-        GreenLedBrightness_WritePulse0(0x00FF);
+        GreenLedBrightness_WritePulse0(0x01FF);
         BlueLedBrightness_WritePulse0(0x0000);
         RedLedBrightness_WritePulse0(0x0000);
     }
     else if(status==THROTTLE_ERROR_HIGH){
-        BlueLedBrightness_WritePulse0(0x00FF);
+        BlueLedBrightness_WritePulse0(0x01FF);
         GreenLedBrightness_WritePulse0(0x0000);
         RedLedBrightness_WritePulse0(0x0000);
     }
     else{
-        RedLedBrightness_WritePulse0(0x00FF);
+        RedLedBrightness_WritePulse0(0x01FF);
         GreenLedBrightness_WritePulse0(0x0000);
         BlueLedBrightness_WritePulse0(0x0000);
     }
 }
+/*******************************************************************************
+* ISR Name: vin_fault
+********************************************************************************
+*
+*******************************************************************************/
+CY_ISR(Vin_Fault){
+    //Vin_Fault_Change_Flag = 1; 
+}
+
+
 /* [] END OF FILE */

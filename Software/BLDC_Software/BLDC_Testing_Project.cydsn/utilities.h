@@ -54,6 +54,11 @@
 #define SLEW_RATE_SLOW          0xFFFF
 #define SLEW_RATE_MEDIUM        SLEW_RATE_SLOW>>1
 #define SLEW_RATE_FAST          SLEW_RATE_SLOW>>2
+    
+#define MOTOR_DISABLED          1
+#define MOTOR_ENABLED           0  
+#define IS_DISABLED(x)          x&(0x02)   
+#define IS_REVERSED(x)          x&(0x01) 
 
 /***************************************
 *    Function Prototypes
@@ -62,10 +67,8 @@ uint8_t hardware_init(void);
 uint8_t update_throttle_val(uint8 disable);
 uint32 slew_rate_limit(uint32 input_throttle);
 uint8 check_vin_fault(void);
-CY_ISR_PROTO(Vin_Fault);
 void updateIndicators(uint8 status);
-    
-    
+CY_ISR_PROTO(Vin_Fault);
 
 
 #endif

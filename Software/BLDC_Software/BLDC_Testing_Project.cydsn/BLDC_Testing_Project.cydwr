@@ -449,6 +449,14 @@
       <Data key="cb47d653-b2be-4e94-a718-cda5765a53f5" value="clock_1" />
       <Data key="cf0ad8ef-9c02-43d0-943a-27f64aea875a" value="slow_sysclk" />
     </Group>
+    <Group key="Interrupt">
+      <Data key="6bb81feb-23d8-4276-98f4-d856939c3975/b6592af9-e743-4dfd-a597-27f9102033ee" value="VI_DelSig_IRQ" />
+      <Data key="6f2d57bd-b6d0-4115-93da-ded3485bf4ed/74b069b5-d5c5-469b-a48a-44b8a12146cd" value="I2C_I2C_IRQ" />
+      <Data key="7b71d2da-65c4-441b-8784-43f33acd5a16" value="Vin_Fault_ISR" />
+      <Data key="79ddb766-e7c8-4735-b5f1-3650c78cb81d/b73dcd38-4bce-4cd7-acec-33f53e91ccd6" value="ThrottleSAR_IRQ" />
+      <Data key="a645bfb0-5807-4bcb-8a2d-cc0b37d485f0/2f0e1ca3-d7f9-4fde-aef9-0b36f082c803" value="SPI_TxInternalInterrupt" />
+      <Data key="a645bfb0-5807-4bcb-8a2d-cc0b37d485f0/14fe96ba-901d-4b28-a648-bce191698c4b" value="SPI_RxInternalInterrupt" />
+    </Group>
     <Group key="Pin">
       <Data key="001c7ab7-991b-4c49-b0bf-0db76663674b" value="DisplayConnection" />
       <Data key="01d43aed-c71e-4cd4-8c54-7147e2f82558" value="SCLK" />
@@ -3571,6 +3579,14 @@
         <Data key="LevelKey" value="00" />
       </Group>
     </Group>
+  </Group>
+  <Group key="Interrupt">
+    <Data key="6bb81feb-23d8-4276-98f4-d856939c3975/b6592af9-e743-4dfd-a597-27f9102033ee" value="5" />
+    <Data key="6f2d57bd-b6d0-4115-93da-ded3485bf4ed/74b069b5-d5c5-469b-a48a-44b8a12146cd" value="4" />
+    <Data key="7b71d2da-65c4-441b-8784-43f33acd5a16" value="2" />
+    <Data key="79ddb766-e7c8-4735-b5f1-3650c78cb81d/b73dcd38-4bce-4cd7-acec-33f53e91ccd6" value="5" />
+    <Data key="a645bfb0-5807-4bcb-8a2d-cc0b37d485f0/2f0e1ca3-d7f9-4fde-aef9-0b36f082c803" value="3" />
+    <Data key="a645bfb0-5807-4bcb-8a2d-cc0b37d485f0/14fe96ba-901d-4b28-a648-bce191698c4b" value="3" />
   </Group>
   <Group key="Pin2">
     <Group key="001c7ab7-991b-4c49-b0bf-0db76663674b">
