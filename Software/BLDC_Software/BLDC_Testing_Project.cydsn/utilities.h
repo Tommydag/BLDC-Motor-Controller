@@ -49,7 +49,8 @@
 #define ADC_RES_BITMASK         0xFFF
 #define MIN_ADC_COUNTS          (uint32)382u
 #define MAX_ADC_COUNTS          (uint32)3800u
-#define MAX_PWM_COUNTS          (uint32)2399u
+#define MIN_PWM_COUNTS          (uint32)10u
+#define MAX_PWM_COUNTS          (uint32)8000u
 #define SLEW_RATE_DELTA_COUNT   1
 #define SLEW_RATE_SLOW          0xFFFF
 #define SLEW_RATE_MEDIUM        SLEW_RATE_SLOW>>1

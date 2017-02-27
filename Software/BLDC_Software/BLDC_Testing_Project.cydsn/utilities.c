@@ -46,6 +46,9 @@ uint8_t hardware_init(void) {
     ThrottleSAR_IRQ_Disable();
     ThrottleSAR_StartConvert();
 
+    SPI_ClearFIFO();
+    SPI_ClearTxBuffer();
+    SPI_ClearRxBuffer();
     SPI_Start();
     
     Vin_Fault_ISR_StartEx(Vin_Fault);
@@ -124,7 +127,7 @@ uint8_t update_throttle_val(uint8 disable) {
             
             //Set motor throttle
             if(average_throttle<=MAX_PWM_COUNTS){
-                MotorPWM_WriteCompare((uint16)average_throttle); 
+                MotorPWM_WriteCompare((uint16)average_throttle);                 
             }
             else{
                 status = THROTTLE_ERROR_HIGH;

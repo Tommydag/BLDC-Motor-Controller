@@ -7,12 +7,12 @@
 <wrkspc_folders />
 <files />
 <projects>
-<v>.\Sensored BLDC Motor Control.cydsn\Sensored BLDC Motor Control.cyprj</v>
 <v>.\BLDC_Testing_Project.cydsn\BLDC_Testing_Project.cyprj</v>
+<v>.\Sensored BLDC Motor Control.cydsn\Sensored BLDC Motor Control.cyprj</v>
 </projects>
 <workspace_id v="6804b2b8-a8a7-4002-9295-ee73f39bfa25" />
 <WriteAppVersionLastSavedWith v="4.0.0.432" />
-<WriteAppMarketingVersionLastSavedWith v="4.0" />
+<WriteAppMarketingVersionLastSavedWith v="4.0 Update 1" />
 <CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyPrjDependencyList" version="4">
 <wrkspc_dependencies>
 <wrkspc_dependency project="BLDC_Testing_Project.cydsn\BLDC_Testing_Project.cyprj" dependency="${CyRoot}\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj" />

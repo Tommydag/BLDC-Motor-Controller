@@ -467,6 +467,7 @@
       <Data key="4affdc65-9d36-40ea-884b-9a13a17d1750" value="nSS_dup" />
       <Data key="5aeea742-5c00-4b0b-a79b-8a280b06d5fa" value="DebugLED" />
       <Data key="5b1c782b-cdec-485d-a6e2-1de6f201a986" value="Reverse" />
+      <Data key="6bb81feb-23d8-4276-98f4-d856939c3975/20681f4c-d171-47ae-a1cb-d832cd711191" value="VI_DelSig_Bypass_P03" />
       <Data key="6c4aabd0-a32a-491f-b518-6c1c6990b3c8" value="ThrottleIn" />
       <Data key="7a9b4df4-2f83-4be5-8a09-b6a5b383458a" value="PWMAH" />
       <Data key="7fccecbd-eef7-4559-95ec-a55ded1269d4" value="nFAULT" />
@@ -3634,6 +3635,11 @@
         <Data key="Port Format" value="0,7" />
       </Group>
     </Group>
+    <Group key="6bb81feb-23d8-4276-98f4-d856939c3975/20681f4c-d171-47ae-a1cb-d832cd711191">
+      <Group key="0">
+        <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
     <Group key="6c4aabd0-a32a-491f-b518-6c1c6990b3c8">
       <Group key="0">
         <Data key="Port Format" value="3,4" />
@@ -3646,7 +3652,7 @@
     </Group>
     <Group key="7fccecbd-eef7-4559-95ec-a55ded1269d4">
       <Group key="0">
-        <Data key="Port Format" value="15,4" />
+        <Data key="Port Format" value="1,6" />
       </Group>
     </Group>
     <Group key="8d318d8b-cf7b-4b6b-b02c-ab1c5c49d0ba">

@@ -13,7 +13,7 @@
 
 #include "project.h"
 #include "utilities.h"
-//#include "drv8301_utilities.h"
+#include "drv8301_utilities.h"
 
 int main(void)
 {
@@ -29,14 +29,21 @@ int main(void)
     uint8_t cstate = 0;
     int16 die_temp_degC = 0; 
     
-    DebugLED_Write(1u);
+    DebugLED_Write(1u); 
+    uint32 tt = 0;
+    CyDelay(1);
+    //drv8301_read_status();
+    //drv8301_write_status();
     for(;;)
     {
-        uint8 status = update_throttle_val(UserIOStatus_Read());
-        status |= check_vin_fault();
-        CyDelayUs(1);
-        updateIndicators(status);
-        CyWdtClear();
+        
+            uint8 status = update_throttle_val(UserIOStatus_Read());
+            status |= check_vin_fault();
+            updateIndicators(status);
+            //CyWdtClear();
+            CyDelayUs(10);
+        
+            //drv8301_read_status();
     }
 }
 

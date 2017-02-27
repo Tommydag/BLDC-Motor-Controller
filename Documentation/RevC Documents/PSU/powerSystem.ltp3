@@ -1,0 +1,88 @@
+<Vers> 3.0.3
+<Tabs> 1, #FFECDBCA, New Tab 1
+<Summ> 0, 0, 24, #FF000000
+<DS03>
+<BPrt> Power, 1, 280, 370, Battery
+	Color   : #FFE6E6FA
+	Width   : 80
+	Height  : 60
+<Term> Output, 1
+	Vout    : 54
+	VoutMin : 18
+	VoutMax : 70
+	IoutMax : 400
+<BPrt> Converter, 2, 485, 370, Main PSU
+	Color   : #FFFFDAB9
+	Width   : 100
+	Height  : 60
+	ConvType: 1
+	CadPath : C:\Users\dagosttv\Documents\BLDC-Motor-Controller\Documentation\RevC Documents\PSU\revCpsu.ltpc
+	SpcePath: C:\Users\dagosttv\Documents\BLDC-Motor-Controller\Documentation\RevC Documents\PSU\revCpsu_LTSPICE.asc
+<Term> Input, 1
+	VinMin  : 20
+	VinMax  : 75
+<Term> Output, 1
+	Vout    : 14.48
+	VoutMin : 14.4
+	IoutMax : 0.5
+<BPrt> LDO, 5, 655, 500, MCU LDO
+	Color   : #FFBDB76B
+	Width   : 100
+	Height  : 60
+<Term> Input, 1
+<Term> Output, 1
+	Vout    : 5
+	VoutMin : 4.9
+	VoutMax : 5.1
+	IoutMax : 0.145
+<BPrt> Load, 8, 850, 370, G Driver
+	Color   : #FFFFC0CB
+	Width   : 80
+	Height  : 60
+<Term> Input, 1
+	Inom    : 0.2
+	LoadType: False
+<BPrt> Load, 9, 850, 500, MCU
+	Color   : #FFFFB6C1
+	Width   : 80
+	Height  : 60
+<Term> Input, 1
+	Inom    : 0.14
+	Ipeak   : 1
+	LoadType: False
+<Symb> SummaryReport, 0, 0, 0, 0,0, 0,0
+	Thicknss: 24
+<Wire> 4, 3
+	STermPID: 2
+	STermTyp: Input
+	STermNum: 1
+	ETermPID: 1
+	ETermTyp: Output
+	ETermNum: 1
+	Points  : (485,400)(360,400)
+<Wire> 7, 6
+	STermPID: 2
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 5
+	ETermTyp: Input
+	ETermNum: 1
+	SWires  : 10
+	Points  : (585,400)(610,400)(610,530)(655,530)
+<Wire> 10, 6
+	STermPID: 8
+	STermTyp: Input
+	STermNum: 1
+	ETermPID: 2
+	ETermTyp: Output
+	ETermNum: 1
+	EWires  : 7
+	Points  : (850,400)(585,400)
+<Wire> 12, 11
+	STermPID: 5
+	STermTyp: Output
+	STermNum: 1
+	ETermPID: 9
+	ETermTyp: Input
+	ETermNum: 1
+	Points  : (755,530)(850,530)

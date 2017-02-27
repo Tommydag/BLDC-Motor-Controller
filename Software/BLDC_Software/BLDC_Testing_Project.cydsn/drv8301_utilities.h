@@ -38,6 +38,20 @@ typedef struct DRV8301_STATUS_STRUCT
             FETLC_OC; 
 }DRV8301_STATUS;
 
+typedef struct DRV8301_CONTROL_STRUCT
+{
+    uint8_t GATE_CURRENT,
+            GATE_RESET,
+            PWM_MODE,
+            OCP_MODE,
+            OC_ADJ_SET,
+            OCTW_MODE,   
+            GAIN,
+            DC_CAL_CH1,
+            DC_CAL_CH2,
+            OC_TOFF;
+}DRV8301_CONTROL;
+
 /***************************************
 * Constants Definitions
 ***************************************/
@@ -45,10 +59,10 @@ typedef struct DRV8301_STATUS_STRUCT
 #define SPI_TIMEOUT_VALUE               1000000
 
 /*For DRV8301*/
-#define DRV8301_STATUS_REG_1            0x0
-#define DRV8301_STATUS_REG_2            0x1
-#define DRV8301_CONTROL_REG_1           0x2
-#define DRV8301_CONTROL_REG_2           0x3
+#define DRV8301_STATUS_REG_1            0x0<<11
+#define DRV8301_STATUS_REG_2            0x1<<11
+#define DRV8301_CONTROL_REG_1           0x2<<11
+#define DRV8301_CONTROL_REG_2           0x3<<11
 #define DRV8301_WRITE                   0<<15
 #define DRV8301_READ                    1<<15
 #define DRV8301_NO_COM_ERROR            0
@@ -113,6 +127,6 @@ typedef struct DRV8301_STATUS_STRUCT
 ***************************************/
 DRV8301_STATUS drv8301_read_status(void);
 uint8_t drv8301_register_parse(uint16_t reg_copy, uint8_t reg_bit);
-
+uint8_t drv8301_write_status(void);
 #endif
 /* [] END OF FILE */
