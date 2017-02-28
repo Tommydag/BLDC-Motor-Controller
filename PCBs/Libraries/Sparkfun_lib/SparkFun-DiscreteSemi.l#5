@@ -4250,6 +4250,9 @@ Used for EL wire applications</description>
 </devices>
 </deviceset>
 <deviceset name="SMAJ70CA" prefix="D">
+<description>The SMAJ series is designed specifically to protect
+sensitive electronic equipment from voltage transients
+induced by lightning and other transient voltage events.</description>
 <gates>
 <gate name="G$1" symbol="BI-TVS" x="0" y="0"/>
 </gates>

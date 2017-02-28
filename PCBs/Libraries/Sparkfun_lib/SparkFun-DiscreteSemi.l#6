@@ -4249,6 +4249,22 @@ Used for EL wire applications</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SMAJ70CA" prefix="D">
+<gates>
+<gate name="G$1" symbol="BI-TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
