@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.3175" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -660,7 +660,9 @@
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="4.445" y1="0.635" x2="4.445" y2="5.08" width="0.127" layer="21"/>
 <circle x="-1.27" y="1.27" radius="0.3175" width="0.127" layer="21"/>
-<text x="6.35" y="0" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="9" rot="R90">&gt;NAME</text>
+</package>
+<package name="UCC27211A-Q1">
 </package>
 </packages>
 <symbols>
@@ -1526,6 +1528,28 @@ and 10-Lead 3mm × 3mm DFN packages.</description>
 <connect gate="G$1" pin="PG" pad="5"/>
 <connect gate="G$1" pin="PGFB" pad="7"/>
 <connect gate="G$1" pin="SET" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UCC27211A-Q1" prefix="U" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="UCC27211A-Q1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC-8-EP">
+<connects>
+<connect gate="G$1" pin="HB" pad="2"/>
+<connect gate="G$1" pin="HI" pad="5"/>
+<connect gate="G$1" pin="HO" pad="3"/>
+<connect gate="G$1" pin="HS" pad="4"/>
+<connect gate="G$1" pin="LI" pad="6"/>
+<connect gate="G$1" pin="LO" pad="8"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="7 EP1 EP2 EP3 EP4 EP5 EP6 EXP"/>
 </connects>
 <technologies>
 <technology name=""/>
