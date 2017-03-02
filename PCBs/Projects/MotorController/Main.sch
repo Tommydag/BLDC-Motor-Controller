@@ -10041,7 +10041,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="47u"/>
 <part name="U3" library="IC" deviceset="LT3045" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10"/>
+<part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="49.9k"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="10u"/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="140k"/>
@@ -10081,7 +10081,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R28" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-RED" device="1206" value="GREEN"/>
-<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="15V" device=""/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="47k"/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10"/>
@@ -10128,6 +10127,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="1206" value="0.2"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="5600p"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2u"/>
+<part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10628,7 +10628,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="VALUE" x="347.98" y="100.838" size="1.778" layer="96"/>
 </instance>
 <instance part="D6" gate="G$1" x="345.44" y="91.44"/>
-<instance part="SUPPLY11" gate="G$1(15V)" x="345.44" y="109.22"/>
 <instance part="R18" gate="G$1" x="152.4" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="154.94" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="154.94" y="75.438" size="1.778" layer="96"/>
@@ -10648,6 +10647,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </instance>
 <instance part="C9" gate="G$1" x="223.52" y="144.78"/>
 <instance part="C8" gate="G$1" x="152.4" y="154.94"/>
+<instance part="SUPPLY11" gate="G$1" x="345.44" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -10678,6 +10678,11 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="5V"/>
 <wire x1="152.4" y1="81.28" x2="152.4" y2="83.82" width="0.4064" layer="91"/>
+</segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<wire x1="345.44" y1="109.22" x2="345.44" y2="106.68" width="0.4064" layer="91"/>
+<pinref part="SUPPLY11" gate="G$1" pin="5V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10959,11 +10964,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <pinref part="R27" gate="G$1" pin="2"/>
 <pinref part="SUPPLY10" gate="G$1(15V)" pin="15V"/>
 <wire x1="345.44" y1="213.36" x2="345.44" y2="215.9" width="0.4064" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY11" gate="G$1(15V)" pin="15V"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="109.22" x2="345.44" y2="106.68" width="0.4064" layer="91"/>
 </segment>
 </net>
 <net name="15V_PG" class="0">
