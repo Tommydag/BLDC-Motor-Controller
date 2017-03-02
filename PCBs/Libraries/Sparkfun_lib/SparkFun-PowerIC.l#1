@@ -20158,19 +20158,19 @@ This high-voltage regulator contains an N-Channel Buck switch, a startup regulat
 </deviceset>
 <deviceset name="LT1963A-3.3" prefix="U">
 <gates>
-<gate name="U" symbol="LT1963A" x="0" y="0"/>
+<gate name="U1" symbol="LT1963A" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SO08">
 <connects>
-<connect gate="U" pin="!SHDN" pad="5"/>
-<connect gate="U" pin="GND@3" pad="3"/>
-<connect gate="U" pin="GND@6" pad="6"/>
-<connect gate="U" pin="GND@7" pad="7"/>
-<connect gate="U" pin="IN" pad="8"/>
-<connect gate="U" pin="NC" pad="4"/>
-<connect gate="U" pin="OUT" pad="1"/>
-<connect gate="U" pin="SENSE/ADJ" pad="2"/>
+<connect gate="U1" pin="!SHDN" pad="5"/>
+<connect gate="U1" pin="GND@3" pad="3"/>
+<connect gate="U1" pin="GND@6" pad="6"/>
+<connect gate="U1" pin="GND@7" pad="7"/>
+<connect gate="U1" pin="IN" pad="8"/>
+<connect gate="U1" pin="NC" pad="4"/>
+<connect gate="U1" pin="OUT" pad="1"/>
+<connect gate="U1" pin="SENSE/ADJ" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

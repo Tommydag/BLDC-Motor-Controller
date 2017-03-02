@@ -17212,7 +17212,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <text x="0" y="13.208" size="1.778" layer="95">&gt;Name</text>
 <text x="0" y="-2.54" size="1.778" layer="96">&gt;Value</text>
 <pin name="OUT" x="-5.08" y="10.16" length="middle" direction="out"/>
-<pin name="SENSE/ADJ]" x="-5.08" y="7.62" length="middle" direction="in"/>
+<pin name="SENSE/ADJ" x="-5.08" y="7.62" length="middle" direction="in"/>
 <pin name="GND@3" x="-5.08" y="5.08" length="middle" direction="pwr"/>
 <pin name="NC" x="-5.08" y="2.54" length="middle" direction="nc"/>
 <pin name="!SHDN" x="33.02" y="2.54" length="middle" direction="in" rot="R180"/>
@@ -20170,7 +20170,7 @@ This high-voltage regulator contains an N-Channel Buck switch, a startup regulat
 <connect gate="U" pin="IN" pad="8"/>
 <connect gate="U" pin="NC" pad="4"/>
 <connect gate="U" pin="OUT" pad="1"/>
-<connect gate="U" pin="SENSE/ADJ]" pad="2"/>
+<connect gate="U" pin="SENSE/ADJ" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

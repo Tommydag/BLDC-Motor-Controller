@@ -1751,6 +1751,10 @@ Source: RS Components</description>
 <wire x1="-3.4" y1="-3.3" x2="-3.4" y2="-2" width="0.127" layer="21"/>
 <wire x1="3.4" y1="-3.3" x2="3.4" y2="-2" width="0.127" layer="22"/>
 </package>
+<package name="TEST-POINT-MINI">
+<smd name="P$1" x="0" y="0" dx="2.05" dy="1.3" layer="1"/>
+<text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -3145,6 +3149,14 @@ SFE parts COM-10855 (330), COM-10856 (10K)&lt;br&gt;</description>
 </technologies>
 </device>
 <device name="TP_15TH_THRU" package="TP_15TH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RCT-0C" package="TEST-POINT-MINI">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>

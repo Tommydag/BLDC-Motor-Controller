@@ -20156,6 +20156,18 @@ This high-voltage regulator contains an N-Channel Buck switch, a startup regulat
 </device>
 </devices>
 </deviceset>
+<deviceset name="LT1963A-3.3" prefix="U">
+<gates>
+<gate name="U" symbol="LT1963A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO08">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

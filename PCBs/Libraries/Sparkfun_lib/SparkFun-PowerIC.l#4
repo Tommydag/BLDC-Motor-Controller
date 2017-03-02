@@ -20162,6 +20162,16 @@ This high-voltage regulator contains an N-Channel Buck switch, a startup regulat
 </gates>
 <devices>
 <device name="" package="SO08">
+<connects>
+<connect gate="U" pin="!SHDN" pad="5"/>
+<connect gate="U" pin="GND@3" pad="3"/>
+<connect gate="U" pin="GND@6" pad="6"/>
+<connect gate="U" pin="GND@7" pad="7"/>
+<connect gate="U" pin="IN" pad="8"/>
+<connect gate="U" pin="NC" pad="4"/>
+<connect gate="U" pin="OUT" pad="1"/>
+<connect gate="U" pin="SENSE/ADJ]" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
