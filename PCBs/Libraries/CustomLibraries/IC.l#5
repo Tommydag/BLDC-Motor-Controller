@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -660,7 +660,7 @@
 <pad name="EP5" x="1.905" y="3.65" drill="0.33" diameter="0.6096" thermals="no"/>
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="4.445" y1="0.635" x2="4.445" y2="5.08" width="0.127" layer="21"/>
-<circle x="-0.127" y="1.778" radius="0.3175" width="0.127" layer="21"/>
+<circle x="-0.127" y="1.778" radius="0.254" width="0.127" layer="21"/>
 <text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="9" rot="R90">&gt;NAME</text>
 </package>
 <package name="UCC27211A-Q1">
@@ -1426,7 +1426,7 @@ lockout or always-on regulator.</description>
 </deviceset>
 <deviceset name="ESDA6V1SC6Y" prefix="U">
 <gates>
-<gate name="G$1" symbol="TVS-ARRAY" x="0" y="0"/>
+<gate name="G$1" symbol="TVS-ARRAY" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">

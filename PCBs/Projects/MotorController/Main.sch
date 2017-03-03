@@ -2108,6 +2108,31 @@ High-power, low thermal resistance package.</description>
 <text x="-2.54" y="1.27" size="0.8128" layer="25" font="vector" ratio="15">&gt;Name</text>
 <text x="-2.032" y="-0.508" size="0.8128" layer="21" font="vector" ratio="15">&gt;Value</text>
 </package>
+<package name="SMA-DIODE-BI">
+<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
+<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
+<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
+<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
+<text x="-2.286" y="1.651" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0.254" y="1.651" size="0.4064" layer="27">&gt;VALUE</text>
+<polygon width="0.127" layer="21">
+<vertex x="-0.889" y="0.508"/>
+<vertex x="-0.889" y="-0.508"/>
+<vertex x="-0.127" y="0"/>
+</polygon>
+<polygon width="0.127" layer="21">
+<vertex x="0.127" y="0"/>
+<vertex x="0.889" y="0.508"/>
+<vertex x="0.889" y="-0.508"/>
+</polygon>
+<wire x1="0" y1="-0.381" x2="0" y2="0.381" width="0.127" layer="21"/>
+<wire x1="0" y1="0.381" x2="-0.127" y2="0.508" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.381" x2="0.127" y2="-0.508" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE">
@@ -2224,31 +2249,6 @@ High-power, low thermal resistance package.</description>
 <pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
 <pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
 </symbol>
-<symbol name="BI-TVS">
-<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="1.778" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
-<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.318" y="-4.064" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.27" x2="0.508" y2="0.762" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0.762" x2="0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0.508" y1="-1.27" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<wire x1="3.048" y1="-1.27" x2="0.508" y2="0" width="0.254" layer="94"/>
-<wire x1="0.508" y1="0" x2="3.048" y2="1.27" width="0.254" layer="94"/>
-<wire x1="3.048" y1="1.27" x2="3.048" y2="0" width="0.254" layer="94"/>
-<wire x1="3.048" y1="0" x2="3.048" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="3.048" y2="0" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="DIODE-SCHOTTKY">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -2280,6 +2280,31 @@ High-power, low thermal resistance package.</description>
 <pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+<symbol name="BI-TVS">
+<wire x1="-2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.778" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-1.27" x2="1.016" y2="-1.778" width="0.254" layer="94"/>
+<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.318" y="-4.064" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="point" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.27" x2="0.508" y2="0.762" width="0.254" layer="94"/>
+<wire x1="0.508" y1="0.762" x2="0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="0.508" y1="0" x2="0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.508" y1="-1.27" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<text x="-4.064" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="3.048" y1="-1.27" x2="0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="0.508" y1="0" x2="3.048" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.048" y1="1.27" x2="3.048" y2="0" width="0.254" layer="94"/>
+<wire x1="3.048" y1="0" x2="3.048" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="3.048" y2="0" width="0.1524" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2887,25 +2912,6 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMAJ70CA" prefix="D">
-<description>The SMAJ series is designed specifically to protect
-sensitive electronic equipment from voltage transients
-induced by lightning and other transient voltage events.</description>
-<gates>
-<gate name="G$1" symbol="BI-TVS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMA-DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="DIODE-SCHOTTKY" prefix="D">
 <description>Schottky diodes in SFE's production catalog&lt;p&gt;
 
@@ -3084,6 +3090,34 @@ Production Part - 8199
 </technologies>
 </device>
 <device name="SZMM3Z18VST1G" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMAJ70CA" prefix="D">
+<description>The SMAJ series is designed specifically to protect
+sensitive electronic equipment from voltage transients
+induced by lightning and other transient voltage events.</description>
+<gates>
+<gate name="G$1" symbol="BI-TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMA-DIODE">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="BIDIRECTIONAL" package="SMA-DIODE-BI">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -3934,7 +3968,7 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <pad name="EP5" x="1.905" y="3.65" drill="0.33" diameter="0.6096" thermals="no"/>
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="4.445" y1="0.635" x2="4.445" y2="5.08" width="0.127" layer="21"/>
-<circle x="-0.127" y="1.778" radius="0.254" width="0.127" layer="21"/>
+<circle x="-0.2794" y="1.6764" radius="0.2032" width="0.127" layer="21"/>
 <text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="9" rot="R90">&gt;NAME</text>
 </package>
 </packages>
@@ -10005,7 +10039,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BUK9240-100A.118" value="BUK9240-100A.118"/>
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BUK9240-100A.118" value="BUK9240-100A.118"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT5551LT1G" value="MMBT5551LT1G"/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="SMAJ70CA" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="S3BB" value="S3BB"/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
@@ -10235,6 +10268,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="D8" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="SZMM3Z18VST1G" value="SZMM3Z18VST1G"/>
 <part name="D9" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="SZMM3Z18VST1G" value="SZMM3Z18VST1G"/>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="DIODE-ZENER" device="SZMM3Z18VST1G" value="SZMM3Z18VST1G"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="SMAJ70CA" device="BIDIRECTIONAL" value="SMAJ70CA"/>
 </parts>
 <sheets>
 <sheet>
@@ -10290,7 +10324,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="NAME" x="182.88" y="171.45" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="182.88" y="168.91" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D4" gate="G$1" x="203.2" y="185.42" rot="R270"/>
 <instance part="GND3" gate="1" x="203.2" y="175.26"/>
 <instance part="D2" gate="G$1" x="162.56" y="162.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="160.02" y="164.6174" size="1.778" layer="95" rot="R180"/>
@@ -10328,6 +10361,10 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <attribute name="VALUE" x="165.1" y="145.288" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="218.44" y="193.04"/>
+<instance part="D4" gate="G$1" x="203.2" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="205.74" y="185.42" size="1.778" layer="95"/>
+<attribute name="VALUE" x="205.74" y="182.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10367,8 +10404,8 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="203.2" y1="177.8" x2="203.2" y2="180.34" width="0.4064" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -10467,7 +10504,6 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <net name="PRE-SENSE" class="0">
 <segment>
 <pinref part="Q3" gate="Q1" pin="D"/>
-<pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="193.04" y1="193.04" x2="203.2" y2="193.04" width="0.4064" layer="91"/>
 <wire x1="203.2" y1="193.04" x2="203.2" y2="190.5" width="0.4064" layer="91"/>
 <wire x1="203.2" y1="193.04" x2="213.36" y2="193.04" width="0.4064" layer="91"/>
@@ -10476,6 +10512,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <wire x1="203.2" y1="203.2" x2="213.36" y2="203.2" width="0.4064" layer="91"/>
 <label x="203.2" y="204.47" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="259.08" y1="134.62" x2="233.68" y2="134.62" width="0.4064" layer="91"/>
@@ -11356,11 +11393,11 @@ Selector</text>
 <attribute name="NAME" x="39.37" y="174.2186" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="46.99" y="174.498" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D7" gate="G$1" x="27.94" y="142.24" smashed="yes" rot="MR270">
-<attribute name="NAME" x="24.638" y="144.78" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="24.638" y="142.367" size="1.778" layer="96" font="vector" rot="MR0"/>
+<instance part="D7" gate="G$1" x="22.86" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.558" y="149.86" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="19.558" y="147.193" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="10.16" y="149.86"/>
+<instance part="SUPPLY16" gate="G$1" x="10.16" y="139.7"/>
 <instance part="R45" gate="G$1" x="111.76" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="113.03" y="153.8986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="105.41" y="154.178" size="1.778" layer="96"/>
@@ -11777,8 +11814,8 @@ Selector</text>
 <segment>
 <pinref part="D7" gate="G$1" pin="ANODE"/>
 <pinref part="SUPPLY16" gate="G$1" pin="5V"/>
-<wire x1="22.86" y1="147.32" x2="10.16" y2="147.32" width="0.4064" layer="91"/>
-<wire x1="10.16" y1="147.32" x2="10.16" y2="149.86" width="0.4064" layer="91"/>
+<wire x1="17.78" y1="137.16" x2="10.16" y2="137.16" width="0.4064" layer="91"/>
+<wire x1="10.16" y1="137.16" x2="10.16" y2="139.7" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="129.54" x2="121.92" y2="129.54" width="0.4064" layer="91"/>
@@ -12015,14 +12052,14 @@ Selector</text>
 <net name="N$36" class="0">
 <segment>
 <pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="142.24" x2="30.48" y2="142.24" width="0.4064" layer="91"/>
+<wire x1="35.56" y1="142.24" x2="25.4" y2="142.24" width="0.4064" layer="91"/>
 <pinref part="D7" gate="G$1" pin="GREEN"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="137.16" x2="35.56" y2="147.32" width="0.4064" layer="91"/>
+<wire x1="25.4" y1="147.32" x2="35.56" y2="147.32" width="0.4064" layer="91"/>
 <pinref part="D7" gate="G$1" pin="RED"/>
 </segment>
 </net>
@@ -12036,7 +12073,7 @@ Selector</text>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="137.16" x2="30.48" y2="147.32" width="0.4064" layer="91"/>
+<wire x1="35.56" y1="137.16" x2="25.4" y2="137.16" width="0.4064" layer="91"/>
 <pinref part="D7" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
