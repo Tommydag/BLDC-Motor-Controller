@@ -3427,9 +3427,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <circle x="0" y="2.54" radius="0.1796" width="0.254" layer="94"/>
 <text x="-2.54" y="3.302" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="5.461" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<pin name="RED" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="GREEN" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="BLUE" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="RED" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="GREEN" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="BLUE" x="-5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 <pin name="ANODE" x="-5.08" y="5.08" visible="off" length="middle" direction="pas" rot="R270"/>
 <polygon width="0.1524" layer="94">
 <vertex x="2.032" y="1.016"/>
@@ -11850,8 +11850,8 @@ Selector</text>
 </net>
 <net name="MONITOR_TX" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="IO1"/>
-<wire x1="373.38" y1="213.36" x2="388.62" y2="213.36" width="0.4064" layer="91"/>
+<pinref part="U8" gate="G$1" pin="IO2"/>
+<wire x1="373.38" y1="208.28" x2="388.62" y2="213.36" width="0.4064" layer="91"/>
 <label x="374.65" y="214.63" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11862,8 +11862,8 @@ Selector</text>
 </net>
 <net name="MONITOR_RX" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="IO2"/>
-<wire x1="373.38" y1="208.28" x2="388.62" y2="208.28" width="0.4064" layer="91"/>
+<pinref part="U8" gate="G$1" pin="IO1"/>
+<wire x1="373.38" y1="213.36" x2="388.62" y2="208.28" width="0.4064" layer="91"/>
 <label x="374.65" y="209.55" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11879,8 +11879,8 @@ Selector</text>
 <label x="31.75" y="173.99" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="IO3"/>
-<wire x1="373.38" y1="203.2" x2="388.62" y2="203.2" width="0.4064" layer="91"/>
+<pinref part="U8" gate="G$1" pin="IO4"/>
+<wire x1="373.38" y1="198.12" x2="388.62" y2="203.2" width="0.4064" layer="91"/>
 <label x="375.92" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11891,8 +11891,8 @@ Selector</text>
 <label x="29.21" y="153.67" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="IO4"/>
-<wire x1="373.38" y1="198.12" x2="388.62" y2="198.12" width="0.4064" layer="91"/>
+<pinref part="U8" gate="G$1" pin="IO3"/>
+<wire x1="373.38" y1="203.2" x2="388.62" y2="198.12" width="0.4064" layer="91"/>
 <label x="375.92" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12022,8 +12022,8 @@ Selector</text>
 <net name="N$37" class="0">
 <segment>
 <pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="147.32" x2="35.56" y2="147.32" width="0.4064" layer="91"/>
-<pinref part="D7" gate="G$1" pin="BLUE"/>
+<wire x1="30.48" y1="137.16" x2="35.56" y2="147.32" width="0.4064" layer="91"/>
+<pinref part="D7" gate="G$1" pin="RED"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -12036,8 +12036,8 @@ Selector</text>
 <net name="N$35" class="0">
 <segment>
 <pinref part="R44" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="137.16" x2="30.48" y2="137.16" width="0.4064" layer="91"/>
-<pinref part="D7" gate="G$1" pin="RED"/>
+<wire x1="35.56" y1="137.16" x2="30.48" y2="147.32" width="0.4064" layer="91"/>
+<pinref part="D7" gate="G$1" pin="BLUE"/>
 </segment>
 </net>
 <net name="N$16" class="0">
