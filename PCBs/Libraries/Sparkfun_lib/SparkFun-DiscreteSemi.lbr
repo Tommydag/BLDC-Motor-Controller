@@ -2868,6 +2868,15 @@ Production Part - 8199
 </technology>
 </technologies>
 </device>
+<device name="SZMM3Z18VST1G" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="GP1A57HR">
