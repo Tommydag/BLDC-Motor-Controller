@@ -3965,12 +3965,12 @@ LilyPad 1206- DIO-09912&lt;br&gt;
 <wire x1="15.24" y1="25.4" x2="0" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.4064" layer="94"/>
 <pin name="GND" x="20.32" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="IO1" x="20.32" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="IO1" x="20.32" y="22.86" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="27.94" size="1.778" layer="95" font="vector" ratio="12" rot="R180" align="center-right">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96" font="vector" ratio="12" rot="R180" align="center-right">&gt;VALUE</text>
-<pin name="IO2" x="20.32" y="17.78" length="middle" direction="pas" rot="R180"/>
-<pin name="IO3" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="IO4" x="20.32" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="IO2" x="20.32" y="17.78" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="IO3" x="20.32" y="12.7" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="IO4" x="20.32" y="7.62" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="1.778" y1="11.43" x2="3.048" y2="13.97" width="0.4064" layer="94"/>
 <wire x1="3.048" y1="13.97" x2="4.318" y2="11.43" width="0.4064" layer="94"/>
 <wire x1="4.318" y1="11.43" x2="3.048" y2="11.43" width="0.4064" layer="94"/>
@@ -11580,8 +11580,8 @@ Selector</text>
 <pinref part="MOD1" gate="G$1" pin="P0_1"/>
 </segment>
 <segment>
-<pinref part="U7" gate="G$1" pin="IO1"/>
-<wire x1="373.38" y1="251.46" x2="388.62" y2="251.46" width="0.4064" layer="91"/>
+<pinref part="U7" gate="G$1" pin="IO2"/>
+<wire x1="373.38" y1="246.38" x2="388.62" y2="251.46" width="0.4064" layer="91"/>
 <label x="378.46" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11839,8 +11839,8 @@ Selector</text>
 <wire x1="264.16" y1="25.4" x2="264.16" y2="33.02" width="0.4064" layer="91"/>
 <label x="281.94" y="34.29" size="1.778" layer="95"/>
 <junction x="264.16" y="33.02"/>
-<pinref part="U6" gate="G$1" pin="IO2"/>
-<wire x1="264.16" y1="33.02" x2="233.68" y2="33.02" width="0.4064" layer="91"/>
+<pinref part="U6" gate="G$1" pin="IO3"/>
+<wire x1="264.16" y1="33.02" x2="233.68" y2="27.94" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
@@ -11974,8 +11974,8 @@ Selector</text>
 </net>
 <net name="REVERSE" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="IO3"/>
-<wire x1="233.68" y1="27.94" x2="251.46" y2="27.94" width="0.4064" layer="91"/>
+<pinref part="U6" gate="G$1" pin="IO2"/>
+<wire x1="233.68" y1="33.02" x2="251.46" y2="27.94" width="0.4064" layer="91"/>
 <label x="240.284" y="28.702" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12051,6 +12051,7 @@ Selector</text>
 <segment>
 <label x="38.1" y="132.08" size="1.778" layer="95"/>
 <wire x1="35.56" y1="132.08" x2="48.26" y2="132.08" width="0.4064" layer="91"/>
+<pinref part="MOD1" gate="G$1" pin="P2_7"/>
 </segment>
 </net>
 <net name="!VIN-FAULT" class="0">

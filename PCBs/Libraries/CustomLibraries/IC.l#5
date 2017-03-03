@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -660,7 +660,7 @@
 <pad name="EP5" x="1.905" y="3.65" drill="0.33" diameter="0.6096" thermals="no"/>
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="4.445" y1="0.635" x2="4.445" y2="5.08" width="0.127" layer="21"/>
-<circle x="-1.27" y="1.27" radius="0.3175" width="0.127" layer="21"/>
+<circle x="-0.127" y="1.778" radius="0.3175" width="0.127" layer="21"/>
 <text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="9" rot="R90">&gt;NAME</text>
 </package>
 <package name="UCC27211A-Q1">
@@ -1299,7 +1299,7 @@ Note: An automotive version exsists</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT4356-2" prefix="U1">
+<deviceset name="LT4356-2" prefix="U">
 <description>The LT®4356 surge stopper protects loads from high voltage
 transients. It regulates the output during an overvoltage
 event, such as load dump in automobiles, by controlling
@@ -1326,23 +1326,23 @@ reducing the quiescent current to 60μA and keeping alive
 the auxiliary amplifi er for uses such as an undervoltage
 lockout or always-on regulator.</description>
 <gates>
-<gate name="U1" symbol="LT4356-1" x="0" y="0"/>
+<gate name="G$1" symbol="LT4356-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC-16">
 <connects>
-<connect gate="U1" pin="!FAULT" pad="10"/>
-<connect gate="U1" pin="!SHDN" pad="9"/>
-<connect gate="U1" pin="AOUT" pad="14"/>
-<connect gate="U1" pin="EN" pad="11"/>
-<connect gate="U1" pin="FB" pad="2"/>
-<connect gate="U1" pin="GATE" pad="5"/>
-<connect gate="U1" pin="GND" pad="12"/>
-<connect gate="U1" pin="IN+" pad="16"/>
-<connect gate="U1" pin="OUT" pad="4"/>
-<connect gate="U1" pin="SNS" pad="7"/>
-<connect gate="U1" pin="TMR" pad="1"/>
-<connect gate="U1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="!FAULT" pad="10"/>
+<connect gate="G$1" pin="!SHDN" pad="9"/>
+<connect gate="G$1" pin="AOUT" pad="14"/>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="GATE" pad="5"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="IN+" pad="16"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="SNS" pad="7"/>
+<connect gate="G$1" pin="TMR" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>

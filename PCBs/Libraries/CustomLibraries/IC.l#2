@@ -660,7 +660,7 @@
 <pad name="EP5" x="1.905" y="3.65" drill="0.33" diameter="0.6096" thermals="no"/>
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="5.08" width="0.127" layer="21"/>
 <wire x1="4.445" y1="0.635" x2="4.445" y2="5.08" width="0.127" layer="21"/>
-<circle x="-1.27" y="1.27" radius="0.3175" width="0.127" layer="21"/>
+<circle x="-0.127" y="1.778" radius="0.254" width="0.127" layer="21"/>
 <text x="6.35" y="0" size="1.2" layer="25" font="vector" ratio="9" rot="R90">&gt;NAME</text>
 </package>
 <package name="UCC27211A-Q1">
@@ -1113,13 +1113,13 @@ RDSon typ. = 3.2 mΩ</description>
 <wire x1="15.24" y1="0" x2="15.24" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="15.24" y1="25.4" x2="0" y2="25.4" width="0.4064" layer="94"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.4064" layer="94"/>
-<pin name="GND" x="20.32" y="2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="IO1" x="20.32" y="22.86" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="20.32" y="2.54" length="middle" direction="pwr" swaplevel="1" rot="R180"/>
+<pin name="IO1" x="20.32" y="22.86" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="27.94" size="1.778" layer="95" font="vector" ratio="12" rot="R180" align="center-right">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.778" layer="96" font="vector" ratio="12" rot="R180" align="center-right">&gt;VALUE</text>
-<pin name="IO2" x="20.32" y="17.78" length="middle" direction="pas" rot="R180"/>
-<pin name="IO3" x="20.32" y="12.7" length="middle" direction="pas" rot="R180"/>
-<pin name="IO4" x="20.32" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="IO2" x="20.32" y="17.78" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="IO3" x="20.32" y="12.7" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="IO4" x="20.32" y="7.62" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="1.778" y1="11.43" x2="3.048" y2="13.97" width="0.4064" layer="94"/>
 <wire x1="3.048" y1="13.97" x2="4.318" y2="11.43" width="0.4064" layer="94"/>
 <wire x1="4.318" y1="11.43" x2="3.048" y2="11.43" width="0.4064" layer="94"/>
@@ -1426,7 +1426,7 @@ lockout or always-on regulator.</description>
 </deviceset>
 <deviceset name="ESDA6V1SC6Y" prefix="U">
 <gates>
-<gate name="G$1" symbol="TVS-ARRAY" x="0" y="0"/>
+<gate name="G$1" symbol="TVS-ARRAY" x="0" y="0" swaplevel="1"/>
 </gates>
 <devices>
 <device name="" package="SOT23-6">

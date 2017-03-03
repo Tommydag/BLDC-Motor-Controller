@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -363,29 +363,33 @@
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51" rot="R180"/>
 </package>
 <package name="ISOPLUS-DIL">
-<smd name="S6" x="-0.5" y="0" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="L3" x="35.75" y="1.5" dx="5.5" dy="4.5" layer="16" roundness="5"/>
-<smd name="G6" x="-0.5" y="3" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="S5" x="-0.5" y="6" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="G5" x="-0.5" y="9" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="S4" x="-0.5" y="12" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="G4" x="-0.5" y="15" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="S3" x="-0.5" y="18" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="G3" x="-0.5" y="21" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="S2" x="-0.5" y="24" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="G2" x="-0.5" y="27" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="S1" x="-0.5" y="30" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="G1" x="-0.5" y="33" dx="5" dy="1.6" layer="16" roundness="5"/>
-<smd name="L2" x="35.75" y="7.5" dx="5.5" dy="4.5" layer="16" roundness="5"/>
-<smd name="L1" x="35.75" y="13.5" dx="5.5" dy="4.5" layer="16" roundness="5"/>
-<smd name="L-" x="35.75" y="25.5" dx="5.5" dy="4.5" layer="16" roundness="5"/>
-<smd name="L+" x="35.75" y="31.5" dx="5.5" dy="4.5" layer="16" roundness="5"/>
-<wire x1="2.635" y1="-1.365" x2="32.365" y2="-1.365" width="0.4064" layer="22"/>
-<wire x1="32.365" y1="-1.365" x2="32.365" y2="34.865" width="0.4064" layer="22"/>
-<wire x1="32.365" y1="34.865" x2="2.635" y2="34.865" width="0.4064" layer="22"/>
-<wire x1="2.635" y1="34.865" x2="2.635" y2="-1.365" width="0.4064" layer="22"/>
-<text x="2.54" y="35.56" size="1.27" layer="26">&gt;NAME</text>
-<text x="2.54" y="-3.81" size="1.27" layer="28">&gt;VALUE</text>
+<smd name="S6" x="0.135" y="33.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="L3" x="36.385" y="31.52" dx="5.5" dy="4.5" layer="1" roundness="5"/>
+<smd name="G6" x="0.135" y="30.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S5" x="0.135" y="27.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G5" x="0.135" y="24.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S4" x="0.135" y="21.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G4" x="0.135" y="18.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S3" x="0.135" y="15.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G3" x="0.135" y="12.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S2" x="0.135" y="9.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G2" x="0.135" y="6.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="S1" x="0.135" y="3.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="G1" x="0.135" y="0.02" dx="5" dy="1.6" layer="1" roundness="5"/>
+<smd name="L2" x="36.385" y="25.52" dx="5.5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L1" x="36.385" y="19.52" dx="5.5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L-" x="36.385" y="7.52" dx="5.5" dy="4.5" layer="1" roundness="5"/>
+<smd name="L+" x="36.385" y="1.52" dx="5.5" dy="4.5" layer="1" roundness="5"/>
+<wire x1="3.27" y1="34.385" x2="33" y2="34.385" width="0.4064" layer="21"/>
+<wire x1="33" y1="34.385" x2="33" y2="-1.845" width="0.4064" layer="21"/>
+<wire x1="33" y1="-1.845" x2="3.27" y2="-1.845" width="0.4064" layer="21"/>
+<wire x1="3.27" y1="-1.845" x2="3.27" y2="34.385" width="0.4064" layer="21"/>
+<text x="3.175" y="-3.81" size="1.27" layer="26">&gt;NAME</text>
+<text x="3.175" y="35.56" size="1.27" layer="28">&gt;VALUE</text>
+<wire x1="3.27" y1="34.385" x2="33" y2="34.385" width="0.4064" layer="48"/>
+<wire x1="33" y1="34.385" x2="33" y2="-1.845" width="0.4064" layer="48"/>
+<wire x1="33" y1="-1.845" x2="3.27" y2="-1.845" width="0.4064" layer="48"/>
+<wire x1="3.27" y1="-1.845" x2="3.27" y2="34.385" width="0.4064" layer="48"/>
 </package>
 <package name="CB5PIN">
 <text x="6" y="14.0675" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
@@ -1175,7 +1179,7 @@ RDSon typ. = 3.2 mΩ</description>
 <pin name="PGFB" x="15.24" y="-5.08" length="middle" direction="in" rot="R90"/>
 <pin name="EN/UV" x="-5.08" y="20.32" length="middle" direction="in"/>
 <pin name="OUTS" x="55.88" y="20.32" length="middle" direction="in" rot="R180"/>
-<pin name="OUT" x="55.88" y="30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT" x="55.88" y="30.48" length="middle" direction="out" rot="R180"/>
 <pin name="SET" x="55.88" y="7.62" length="middle" direction="out" rot="R180"/>
 <pin name="ILIM" x="35.56" y="-5.08" length="middle" direction="out" rot="R90"/>
 </symbol>
@@ -1295,7 +1299,7 @@ Note: An automotive version exsists</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LT4356-2" prefix="U1">
+<deviceset name="LT4356-2" prefix="U">
 <description>The LT®4356 surge stopper protects loads from high voltage
 transients. It regulates the output during an overvoltage
 event, such as load dump in automobiles, by controlling
@@ -1322,23 +1326,23 @@ reducing the quiescent current to 60μA and keeping alive
 the auxiliary amplifi er for uses such as an undervoltage
 lockout or always-on regulator.</description>
 <gates>
-<gate name="U1" symbol="LT4356-1" x="0" y="0"/>
+<gate name="G$1" symbol="LT4356-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOIC-16">
 <connects>
-<connect gate="U1" pin="!FAULT" pad="10"/>
-<connect gate="U1" pin="!SHDN" pad="9"/>
-<connect gate="U1" pin="AOUT" pad="14"/>
-<connect gate="U1" pin="EN" pad="11"/>
-<connect gate="U1" pin="FB" pad="2"/>
-<connect gate="U1" pin="GATE" pad="5"/>
-<connect gate="U1" pin="GND" pad="12"/>
-<connect gate="U1" pin="IN+" pad="16"/>
-<connect gate="U1" pin="OUT" pad="4"/>
-<connect gate="U1" pin="SNS" pad="7"/>
-<connect gate="U1" pin="TMR" pad="1"/>
-<connect gate="U1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="!FAULT" pad="10"/>
+<connect gate="G$1" pin="!SHDN" pad="9"/>
+<connect gate="G$1" pin="AOUT" pad="14"/>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="2"/>
+<connect gate="G$1" pin="GATE" pad="5"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="IN+" pad="16"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+<connect gate="G$1" pin="SNS" pad="7"/>
+<connect gate="G$1" pin="TMR" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
