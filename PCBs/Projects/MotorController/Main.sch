@@ -186,6 +186,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.381" y="1.016"/>
 <vertex x="-0.508" y="1.016"/>
 </polygon>
+<wire x1="-0.4316" y1="0.787" x2="0.4316" y2="0.787" width="0.1016" layer="21"/>
+<wire x1="-0.4316" y1="-0.787" x2="0.4316" y2="-0.787" width="0.1016" layer="21"/>
 </package>
 <package name="AXIAL-0.3">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
