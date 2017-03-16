@@ -10188,7 +10188,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="140k"/>
 <part name="R26" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="1206" value="4.7"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP_POL" device="1206" value="4.7u"/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="499"/>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="1206" value="2"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="1210" value="10u"/>
@@ -11620,8 +11620,8 @@ Selector</text>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="IO2"/>
-<wire x1="373.38" y1="246.38" x2="388.62" y2="251.46" width="0.4064" layer="91"/>
-<label x="378.46" y="251.46" size="1.778" layer="95"/>
+<wire x1="373.38" y1="246.38" x2="388.62" y2="246.38" width="0.4064" layer="91"/>
+<label x="378.46" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11879,7 +11879,9 @@ Selector</text>
 <label x="281.94" y="34.29" size="1.778" layer="95"/>
 <junction x="264.16" y="33.02"/>
 <pinref part="U6" gate="G$1" pin="IO3"/>
-<wire x1="264.16" y1="33.02" x2="233.68" y2="27.94" width="0.4064" layer="91"/>
+<wire x1="264.16" y1="33.02" x2="256.54" y2="33.02" width="0.4064" layer="91"/>
+<wire x1="256.54" y1="33.02" x2="256.54" y2="27.94" width="0.4064" layer="91"/>
+<wire x1="256.54" y1="27.94" x2="233.68" y2="27.94" width="0.4064" layer="91"/>
 </segment>
 <segment>
 <pinref part="R47" gate="G$1" pin="1"/>
@@ -11890,7 +11892,7 @@ Selector</text>
 <net name="MONITOR_TX" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="IO2"/>
-<wire x1="373.38" y1="208.28" x2="388.62" y2="213.36" width="0.4064" layer="91"/>
+<wire x1="373.38" y1="208.28" x2="388.62" y2="208.28" width="0.4064" layer="91"/>
 <label x="374.65" y="214.63" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11902,7 +11904,7 @@ Selector</text>
 <net name="MONITOR_RX" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="IO1"/>
-<wire x1="373.38" y1="213.36" x2="388.62" y2="208.28" width="0.4064" layer="91"/>
+<wire x1="373.38" y1="213.36" x2="388.62" y2="213.36" width="0.4064" layer="91"/>
 <label x="374.65" y="209.55" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -11919,7 +11921,7 @@ Selector</text>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="IO4"/>
-<wire x1="373.38" y1="198.12" x2="388.62" y2="203.2" width="0.4064" layer="91"/>
+<wire x1="373.38" y1="198.12" x2="388.62" y2="198.12" width="0.4064" layer="91"/>
 <label x="375.92" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -11931,7 +11933,7 @@ Selector</text>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="IO3"/>
-<wire x1="373.38" y1="203.2" x2="388.62" y2="198.12" width="0.4064" layer="91"/>
+<wire x1="373.38" y1="203.2" x2="388.62" y2="203.2" width="0.4064" layer="91"/>
 <label x="375.92" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12014,8 +12016,8 @@ Selector</text>
 <net name="REVERSE" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="IO2"/>
-<wire x1="233.68" y1="33.02" x2="251.46" y2="27.94" width="0.4064" layer="91"/>
-<label x="240.284" y="28.702" size="1.778" layer="95"/>
+<wire x1="233.68" y1="33.02" x2="251.46" y2="33.02" width="0.4064" layer="91"/>
+<label x="240.284" y="33.782" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>

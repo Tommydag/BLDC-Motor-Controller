@@ -35,10 +35,10 @@ UsedLibrary="C:/Users/dagosttv/Documents/BLDC-Motor-Controller/PCBs/Libraries/Sp
 
 [Win_1]
 Type="Control Panel"
-Loc="305 0 1386 548"
+Loc="412 0 1493 548"
 State=2
 Number=0
 
 [Desktop]
-Screen="2560 1440"
+Screen="4480 1440"
 Window="Win_1"
